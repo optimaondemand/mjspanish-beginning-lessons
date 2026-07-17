@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>M/J Spanish, Beginning &mdash; Lesson 9.03</title>
+
+<!-- Forked WL widget kit (GitHub Pages) -->
+<link rel="stylesheet" href="https://optimaondemand.github.io/mjspanish-beginning-lessons/widgets/elatin-widgets.css" />
+<script src="https://optimaondemand.github.io/mjspanish-beginning-lessons/widgets/elatin-widgets.js" defer></script>
+
+<style>
+  :root{ --navy:#0E1C42; --cyan:#55C8E8; --gold:#C7922C; --masc:#1d4ed8; --fem:#c0392b; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; padding:0; font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:#f4f6fa; color:#1a2340; }
+  .preview-banner{ background:#fff3cd; border-bottom:2px solid var(--gold); padding:10px 24px; font-size:13px; color:#6b4f1d; }
+  .preview-banner strong{ color:var(--navy); }
+  .canvas-frame{ max-width:1100px; margin:0 auto; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,.08); }
+
+  .masc{ color:var(--masc); font-weight:700; }
+  .fem{ color:var(--fem); font-weight:700; }
+
+  /* state/capital place cards (proper nouns, geography theme) */
+  .place-grid{ display:flex; flex-wrap:wrap; gap:12px; margin:14px 0; }
+  .place-card{ min-width:200px; flex:1 1 200px; max-width:250px; background:#fff; border:1.5px solid #D0D9E8; border-top:5px solid #2E7D46; border-radius:10px; padding:14px 16px; text-align:center; }
+  .place-card .state{ font-size:19px; color:#0e1c42; font-weight:700; }
+  .place-card .role{ font-size:11px; color:#2E7D46; text-transform:uppercase; letter-spacing:.5px; margin:2px 0 6px; }
+  .place-card .cap{ font-size:16px; color:#6b4f1d; }
+  .place-card .cap b{ color:#0e1c42; }
+  .place-card audio{ height:30px; width:100%; max-width:200px; margin:6px 0 2px; }
+
+  /* color-coded geography common-noun flip cards */
+  .flip-legend{ display:flex; gap:14px; flex-wrap:wrap; margin:6px 0 14px; font-size:14px; }
+  .flip-legend span{ padding:5px 12px; border-radius:999px; font-weight:700; }
+  .leg-m{ background:#eaf0ff; color:var(--masc); border:1px solid #c9d8f7; }
+  .leg-f{ background:#fdeceb; color:var(--fem); border:1px solid #f2c4bf; }
+  .flip-grid{ display:flex; flex-wrap:wrap; gap:12px; margin:14px 0; }
+  .flip-card{ min-width:170px; flex:1 1 170px; max-width:210px; background:#fff; border:1.5px solid #D0D9E8; border-radius:10px; padding:14px 16px; cursor:pointer; text-align:center; transition:all .15s; }
+  .flip-card:hover{ box-shadow:0 4px 12px rgba(14,28,66,.12); }
+  .flip-card.masc{ border-top:5px solid var(--masc); }
+  .flip-card.fem{ border-top:5px solid var(--fem); }
+  .flip-card .word{ font-size:19px; margin-bottom:6px; }
+  .flip-card .word.masc{ color:var(--masc); }
+  .flip-card .word.fem{ color:var(--fem); }
+  .flip-card audio{ height:30px; width:100%; max-width:180px; margin:2px 0 8px; }
+  .flip-card .hint{ font-size:11px; color:#aab; text-transform:uppercase; letter-spacing:.5px; }
+  .flip-card .back{ display:none; font-size:15px; color:#1a2340; margin-top:8px; border-top:1px dashed #C5DCE5; padding-top:8px; }
+  .flip-card.flipped .back{ display:block; }
+  .flip-card .back .tagm{ color:var(--masc); font-weight:700; font-size:13px; }
+  .flip-card .back .tagf{ color:var(--fem); font-weight:700; font-size:13px; }
+
+  /* Mark as Done banner */
+  .mark-done{ background:#FDF6E6; border:1px solid #E7D6A8; border-left:5px solid var(--gold); border-radius:8px; padding:14px 20px; margin:22px 0; display:flex; align-items:center; gap:12px; }
+  .mark-done .chk{ width:34px; height:34px; border-radius:50%; background:var(--gold); color:#fff; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0; }
+  .mark-done p{ margin:0; font-size:15px; color:#1a2340; line-height:1.5; }
+</style>
+</head>
+<body>
+
+<div class="canvas-frame">
+
+<!-- HEADER -->
+<div style="background:#0E1C42; border-bottom:5px solid #55C8E8; padding:22px 34px;">
+  <div style="display:flex; align-items:center; gap:14px; margin-bottom:10px;">
+    <div style="width:52px; height:52px; border-radius:50%; background:#fff; display:flex; align-items:center; justify-content:center; flex-shrink:0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width:50px; height:40px; object-fit:contain;" /></div>
+    <div>
+      <div style="font-size:28px; color:#fff; line-height:1.2;">Optima Academy Online</div>
+      <div style="font-size:12px; color:#55c8e8;">An Education Experience Company</div>
+    </div>
+  </div>
+  <div style="font-size:36px; color:#fff; margin-bottom:6px;">M/J SPANISH, BEGINNING</div>
+</div>
+
+<!-- METADATA STRIP -->
+<div style="background:#fff; border-bottom:2px solid #D0D9E8; display:flex; flex-wrap:wrap;">
+  <div style="flex:1; min-width:140px; padding:12px 16px; border-right:1px solid #D0D9E8;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Semester / Module</div>
+    <div style="font-size:17px; color:#0e1c42;">Semester 1 &middot; Module 9</div>
+    <div style="font-size:12px; color:#666;">M&eacute;xico 2 &mdash; estados y capitales</div>
+  </div>
+  <div style="flex:1; min-width:140px; padding:12px 16px; border-right:1px solid #D0D9E8;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Lesson</div>
+    <div style="font-size:17px; color:#0e1c42;">Lesson 9.03 &middot; Day 3 of 5</div>
+  </div>
+  <div style="flex:1; min-width:140px; padding:12px 16px; border-right:1px solid #D0D9E8;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Topic</div>
+    <div style="font-size:17px; color:#0e1c42; font-style:italic;">Estados y capitales + audio</div>
+  </div>
+  <div style="flex:1; min-width:140px; padding:12px 16px;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Time</div>
+    <div style="font-size:16px; color:#0e1c42;">about 20 minutes</div>
+  </div>
+</div>
+
+<!-- BODY -->
+<div style="padding:24px 34px;">
+
+  <div style="background:#EEF1F8; border-left:5px solid #0E1C42; border-radius:7px; padding:18px 22px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#0e1c42; margin-bottom:6px;">Lesson 9.03</div>
+    <div style="font-size:22px; color:#0e1c42; margin-bottom:4px;">Estados y capitales de M&eacute;xico</div>
+    <div style="font-size:16px; color:#666;">New words on a pattern you already own &mdash; listen, repeat, and match.</div>
+  </div>
+
+  <!-- TODAY'S FOCUS -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:12px;">&#128214; TODAY'S FOCUS</div>
+    <div style="font-size:20px; color:#0e1c42; font-style:italic; margin-bottom:10px;">Time to meet the actual places. These states and capitals are the <strong>new vocabulary</strong> &mdash; and you'll drop them straight into yesterday's <em>est&aacute; al&hellip; de</em> pattern.</div>
+    <div style="font-size:18px; color:#1a2340; line-height:1.65;">These are <em>place names</em>, so most don't follow the <span class="masc">-o</span>/<span class="fem">-a</span> gender rule &mdash; a city or state is just its name. But the everyday geography words that go <em>with</em> them (<span class="masc">el mapa</span>, <span class="fem">la capital</span>&hellip;) do have gender, and they're color-coded below as always.</div>
+  </div>
+
+  <!-- OBJECTIVES -->
+  <div style="background:#fff; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:14px;">&#127919; BY THE END OF THIS LESSON YOU WILL BE ABLE TO&hellip;</div>
+    <div style="display:flex; align-items:flex-start; gap:12px; margin-bottom:12px;">
+      <div style="min-width:26px; height:26px; border-radius:50%; background:#C7922C; color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">1</div>
+      <div style="font-size:18px; color:#1a2340; line-height:1.65;"><strong>say</strong> the names of several Mexican states and their capitals with clean Spanish vowels.</div>
+    </div>
+    <div style="display:flex; align-items:flex-start; gap:12px; margin-bottom:12px;">
+      <div style="min-width:26px; height:26px; border-radius:50%; background:#C7922C; color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">2</div>
+      <div style="font-size:18px; color:#1a2340; line-height:1.65;"><strong>match</strong> each state to its capital city.</div>
+    </div>
+    <div style="display:flex; align-items:flex-start; gap:12px;">
+      <div style="min-width:26px; height:26px; border-radius:50%; background:#C7922C; color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">3</div>
+      <div style="font-size:18px; color:#1a2340; line-height:1.65;"><strong>use</strong> a few color-coded geography words: <span class="masc">el mapa</span>, <span class="masc">el estado</span>, <span class="masc">el pa&iacute;s</span>, <span class="fem">la capital</span>, <span class="fem">la ciudad</span>, <span class="fem">la frontera</span>.</div>
+    </div>
+  </div>
+
+  <!-- PART 1 · ESTADOS Y CAPITALES + AUDIO -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:10px;">&#128266; PART 1 &middot; ESCUCHA Y REPITE (LISTEN &amp; REPEAT)</div>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0 0 10px 0;">Press &#9654; to hear each <strong>state</strong> and its <strong>capital</strong>, then say them out loud. Remember your five steady vowels &mdash; they carry you through every one of these names.</p>
+
+    <div class="place-grid">
+      <div class="place-card">
+        <div class="state">Jalisco</div>
+        <div class="role">capital</div>
+        <div class="cap"><b>Guadalajara</b></div>
+        <audio controls preload="none" aria-label="Escuchar: Jalisco"><source src="../../audio/vocab/jalisco.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+        <audio controls preload="none" aria-label="Escuchar: Guadalajara"><source src="../../audio/vocab/guadalajara.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+      </div>
+      <div class="place-card">
+        <div class="state">Nuevo Le&oacute;n</div>
+        <div class="role">capital</div>
+        <div class="cap"><b>Monterrey</b></div>
+        <audio controls preload="none" aria-label="Escuchar: Nuevo Le&oacute;n"><source src="../../audio/vocab/nuevo-leon.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+        <audio controls preload="none" aria-label="Escuchar: Monterrey"><source src="../../audio/vocab/monterrey.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+      </div>
+      <div class="place-card">
+        <div class="state">Yucat&aacute;n</div>
+        <div class="role">capital</div>
+        <div class="cap"><b>M&eacute;rida</b></div>
+        <audio controls preload="none" aria-label="Escuchar: Yucat&aacute;n"><source src="../../audio/vocab/yucatan.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+        <audio controls preload="none" aria-label="Escuchar: M&eacute;rida"><source src="../../audio/vocab/merida.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+      </div>
+      <div class="place-card">
+        <div class="state">Sonora</div>
+        <div class="role">capital</div>
+        <div class="cap"><b>Hermosillo</b></div>
+        <audio controls preload="none" aria-label="Escuchar: Sonora"><source src="../../audio/vocab/sonora.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+        <audio controls preload="none" aria-label="Escuchar: Hermosillo"><source src="../../audio/vocab/hermosillo.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+      </div>
+      <div class="place-card">
+        <div class="state">Michoac&aacute;n</div>
+        <div class="role">capital</div>
+        <div class="cap"><b>Morelia</b></div>
+        <audio controls preload="none" aria-label="Escuchar: Michoac&aacute;n"><source src="../../audio/vocab/michoacan.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+        <audio controls preload="none" aria-label="Escuchar: Morelia"><source src="../../audio/vocab/morelia.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+      </div>
+      <div class="place-card">
+        <div class="state">Puebla</div>
+        <div class="role">capital</div>
+        <div class="cap"><b>Puebla</b> <span style="color:#888; font-size:13px;">(same name)</span></div>
+        <audio controls preload="none" aria-label="Escuchar: Puebla"><source src="../../audio/vocab/puebla.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+      </div>
+      <div class="place-card">
+        <div class="state">Oaxaca</div>
+        <div class="role">capital</div>
+        <div class="cap"><b>Oaxaca</b> <span style="color:#888; font-size:13px;">(same name)</span></div>
+        <audio controls preload="none" aria-label="Escuchar: Oaxaca"><source src="../../audio/vocab/oaxaca.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+      </div>
+      <div class="place-card">
+        <div class="state">Guanajuato</div>
+        <div class="role">capital</div>
+        <div class="cap"><b>Guanajuato</b> <span style="color:#888; font-size:13px;">(same name)</span></div>
+        <audio controls preload="none" aria-label="Escuchar: Guanajuato"><source src="../../audio/vocab/guanajuato.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+      </div>
+    </div>
+
+    <div style="background:#EEF1F8; border-radius:8px; padding:14px 18px; margin-top:6px; display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+      <div style="font-size:17px; color:#0e1c42;"><strong>La capital del pa&iacute;s:</strong> la Ciudad de M&eacute;xico</div>
+      <audio controls preload="none" aria-label="Escuchar: la Ciudad de M&eacute;xico"><source src="../../audio/vocab/ciudad-de-mexico.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+    </div>
+  </div>
+
+  <!-- PART 2 · COLOR-CODED GEOGRAPHY WORDS -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:10px;">&#127758; PART 2 &middot; THE WORDS THAT DESCRIBE A MAP</div>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0 0 6px 0;">These common words <em>do</em> have gender. <strong>Tap a card</strong> to flip it. Watch the colors: <span class="masc">blue = el</span>, <span class="fem">red = la</span>.</p>
+    <div class="flip-legend">
+      <span class="leg-m">&#9794; blue &middot; el</span>
+      <span class="leg-f">&#9792; red &middot; la</span>
+    </div>
+
+    <div class="ow-flip flip-grid">
+      <div class="flip-card masc">
+        <div class="word masc">el mapa</div>
+        <audio controls preload="none" aria-label="Escuchar: el mapa"><source src="../../audio/vocab/el-mapa.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+        <div class="hint">tap for meaning</div>
+        <div class="back">the map<br><span class="tagm">masculine &middot; a friendly exception (ends in -a, still <em>el</em>)</span></div>
+      </div>
+      <div class="flip-card masc">
+        <div class="word masc">el estado</div>
+        <audio controls preload="none" aria-label="Escuchar: el estado"><source src="../../audio/vocab/el-estado.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+        <div class="hint">tap for meaning</div>
+        <div class="back">the state<br><span class="tagm">masculine &middot; ends in -o</span></div>
+      </div>
+      <div class="flip-card masc">
+        <div class="word masc">el pa&iacute;s</div>
+        <audio controls preload="none" aria-label="Escuchar: el pa&iacute;s"><source src="../../audio/vocab/el-pais.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+        <div class="hint">tap for meaning</div>
+        <div class="back">the country<br><span class="tagm">masculine</span></div>
+      </div>
+      <div class="flip-card fem">
+        <div class="word fem">la capital</div>
+        <audio controls preload="none" aria-label="Escuchar: la capital"><source src="../../audio/vocab/la-capital.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+        <div class="hint">tap for meaning</div>
+        <div class="back">the capital city<br><span class="tagf">feminine</span></div>
+      </div>
+      <div class="flip-card fem">
+        <div class="word fem">la ciudad</div>
+        <audio controls preload="none" aria-label="Escuchar: la ciudad"><source src="../../audio/vocab/la-ciudad.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+        <div class="hint">tap for meaning</div>
+        <div class="back">the city<br><span class="tagf">feminine</span></div>
+      </div>
+      <div class="flip-card fem">
+        <div class="word fem">la frontera</div>
+        <audio controls preload="none" aria-label="Escuchar: la frontera"><source src="../../audio/vocab/la-frontera.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio>
+        <div class="hint">tap for meaning</div>
+        <div class="back">the border<br><span class="tagf">feminine &middot; ends in -a</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PART 3 · MATCH GAME -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:10px;">&#127918; PART 3 &middot; MATCH THE STATE TO ITS CAPITAL</div>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0 0 4px 0;">Pair each <em>estado</em> with its <em>capital</em>. Correct pairs lock in; try as many times as you like.</p>
+    <div class="elw-match"
+         data-title="Estado &rarr; capital"
+         data-pairs='[["Jalisco","Guadalajara"],["Nuevo Le&oacute;n","Monterrey"],["Yucat&aacute;n","M&eacute;rida"],["Sonora","Hermosillo"],["Michoac&aacute;n","Morelia"]]'
+         data-timer="true"></div>
+  </div>
+
+  <!-- MARK AS DONE -->
+  <div class="mark-done">
+    <div class="chk">&#10003;</div>
+    <p><strong>Before you go:</strong> click <strong>"Mark as Done"</strong> at the top of this page. Tomorrow, Lesson 9.04 shows you how many US places carry these very same Spanish names.</p>
+  </div>
+
+  <!-- WRAP-UP -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:12px;">&#128170; ONE IDEA TO CARRY OUT</div>
+    <p style="font-size:18px; color:#1a2340; line-height:1.65; margin:0;">You now have real places to talk about. Try one out loud with yesterday's pattern: <em>"Monterrey est&aacute; al norte de la Ciudad de M&eacute;xico."</em></p>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<div style="background:#0E1C42; border-top:3px solid #55C8E8; padding:18px 34px; text-align:center;">
+  <div style="font-size:18px; color:#fff; margin-bottom:6px;"><span style="color:#55c8e8;">Optima Academy Online</span> &middot; M/J SPANISH, BEGINNING &middot; Semester 1 &middot; Student Lesson Page</div>
+  <div style="font-size:13px; color:rgba(255,255,255,.65); margin-bottom:4px;">Lesson 9.03 &middot; Estados y capitales</div>
+  <div style="font-size:12px; color:rgba(255,255,255,.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</div>
+
+<script>
+(function () {
+  document.addEventListener('click', function (e) {
+    var flip = e.target.closest('.ow-flip .flip-card');
+    if (flip) { if (e.target.closest('audio')) return; flip.classList.toggle('flipped'); return; }
+  });
+})();
+</script>
+
+</body>
+</html>

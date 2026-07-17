@@ -1,0 +1,11 @@
+[
+  { "id": "el-dia-de-los-muertos", "text": "el Día de los Muertos" },
+  { "id": "la-ofrenda", "text": "la ofrenda" },
+  { "id": "el-altar", "text": "el altar" },
+  { "id": "la-vela", "text": "la vela" },
+  { "id": "la-flor-de-cempasuchil", "text": "la flor de cempasúchil" },
+  { "id": "la-calavera", "text": "la calavera" },
+  { "id": "el-pan-de-muerto", "text": "el pan de muerto" },
+  { "id": "el-papel-picado", "text": "el papel picado" },
+  { "id": "la-foto", "text": "la foto" }
+]

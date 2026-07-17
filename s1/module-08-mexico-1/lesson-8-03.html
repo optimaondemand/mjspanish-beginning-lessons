@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>M/J Spanish, Beginning &mdash; Lesson 8.03</title>
+
+<!-- Forked WL widget kit (GitHub Pages) -->
+<link rel="stylesheet" href="https://optimaondemand.github.io/mjspanish-beginning-lessons/widgets/elatin-widgets.css" />
+<script src="https://optimaondemand.github.io/mjspanish-beginning-lessons/widgets/elatin-widgets.js" defer></script>
+
+<style>
+  :root{ --navy:#0E1C42; --cyan:#55C8E8; --gold:#C7922C; --masc:#1d4ed8; --fem:#c0392b; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; padding:0; font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:#f4f6fa; color:#1a2340; }
+  .preview-banner{ background:#fff3cd; border-bottom:2px solid var(--gold); padding:10px 24px; font-size:13px; color:#6b4f1d; }
+  .preview-banner strong{ color:var(--navy); }
+  .canvas-frame{ max-width:1100px; margin:0 auto; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,.08); }
+
+  .masc{ color:var(--masc); font-weight:700; }
+  .fem{ color:var(--fem); font-weight:700; }
+
+  /* -o / -a agreement panels */
+  .pattern-wrap{ display:flex; gap:16px; flex-wrap:wrap; margin:16px 0; }
+  .pat{ flex:1 1 280px; border-radius:10px; padding:18px 20px; }
+  .pat.m{ background:#eaf0ff; border:1px solid #c9d8f7; border-top:5px solid var(--masc); }
+  .pat.f{ background:#fdeceb; border:1px solid #f2c4bf; border-top:5px solid var(--fem); }
+  .pat h4{ margin:0 0 6px; font-size:18px; }
+  .pat.m h4{ color:var(--masc); }
+  .pat.f h4{ color:var(--fem); }
+  .pat ul{ margin:0; padding-left:0; list-style:none; }
+  .pat li{ font-size:17px; padding:5px 0; }
+
+  .exc{ background:#FDF6E6; border:1px solid #E7D6A8; border-left:5px solid var(--gold); border-radius:8px; padding:16px 20px; margin:16px 0; }
+
+  /* ---- Optima inline check-in widgets ---- */
+  .optima-widget{ background:linear-gradient(135deg,#E8F6FB 0%,#F4F9FC 100%); border:1px solid #C5DCE5; border-left:5px solid #2196D0; border-radius:8px; padding:18px 22px; margin:18px 0; }
+  .widget-kicker{ font-size:11px; color:#1B6A94; margin-bottom:10px; letter-spacing:.4px; }
+  .widget-question{ font-size:17px; color:var(--navy); margin-bottom:14px; line-height:1.55; }
+  .widget-row{ background:#fff; border:1px solid #D0D9E8; border-radius:6px; padding:12px 14px; margin-bottom:10px; }
+  .widget-row-prompt{ font-size:15px; color:var(--navy); margin-bottom:8px; line-height:1.5; }
+  .widget-options{ display:flex; flex-wrap:wrap; gap:8px; }
+  .widget-options button{ background:#fff; border:1.5px solid #D0D9E8; border-radius:8px; padding:8px 14px; font-size:14px; color:var(--navy); cursor:pointer; transition:all .15s; font-family:inherit; }
+  .widget-options button:hover{ background:#F4F6FA; border-color:var(--cyan); }
+  .widget-options button.correct{ background:#D8F0DD; border-color:#2A9D5C; color:#1A6B3D; }
+  .widget-options button.incorrect{ background:#FDECEC; border-color:#C0392B; color:#8A1F16; }
+  .row-feedback{ padding:8px 12px; margin-top:8px; font-size:14px; border-radius:4px; line-height:1.5; }
+  .row-feedback.correct{ background:#D8F0DD; border-left:3px solid #2A9D5C; color:#1A6B3D; }
+  .row-feedback.incorrect{ background:#FDECEC; border-left:3px solid #C0392B; color:#8A1F16; }
+  .widget-reset{ background:transparent; border:1px solid var(--gold); color:var(--gold); border-radius:6px; padding:6px 12px; font-size:12px; cursor:pointer; font-family:inherit; margin-top:6px; }
+  .widget-reset:hover{ background:#FDF3E3; }
+
+  /* scoped color-code for the color sort bins */
+  #color-sort .elw-bin:first-child{ border-color:#e3c78a; }
+  #color-sort .elw-bin:first-child h4{ color:var(--gold); }
+
+  /* Mark as Done banner */
+  .mark-done{ background:#FDF6E6; border:1px solid #E7D6A8; border-left:5px solid var(--gold); border-radius:8px; padding:14px 20px; margin:22px 0; display:flex; align-items:center; gap:12px; }
+  .mark-done .chk{ width:34px; height:34px; border-radius:50%; background:var(--gold); color:#fff; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0; }
+  .mark-done p{ margin:0; font-size:15px; color:#1a2340; line-height:1.5; }
+</style>
+</head>
+<body>
+
+<div class="canvas-frame">
+
+<!-- HEADER -->
+<div style="background:#0E1C42; border-bottom:5px solid #55C8E8; padding:22px 34px;">
+  <div style="display:flex; align-items:center; gap:14px; margin-bottom:10px;">
+    <div style="width:52px; height:52px; border-radius:50%; background:#fff; display:flex; align-items:center; justify-content:center; flex-shrink:0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width:50px; height:40px; object-fit:contain;" /></div>
+    <div>
+      <div style="font-size:28px; color:#fff; line-height:1.2;">Optima Academy Online</div>
+      <div style="font-size:12px; color:#55c8e8;">An Education Experience Company</div>
+    </div>
+  </div>
+  <div style="font-size:36px; color:#fff; margin-bottom:6px;">M/J SPANISH, BEGINNING</div>
+</div>
+
+<!-- METADATA STRIP -->
+<div style="background:#fff; border-bottom:2px solid #D0D9E8; display:flex; flex-wrap:wrap;">
+  <div style="flex:1; min-width:140px; padding:12px 16px; border-right:1px solid #D0D9E8;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Semester / Module</div>
+    <div style="font-size:17px; color:#0e1c42;">Semester 1 &middot; Module 8</div>
+    <div style="font-size:12px; color:#666;">M&eacute;xico &mdash; colores y direcciones</div>
+  </div>
+  <div style="flex:1; min-width:140px; padding:12px 16px; border-right:1px solid #D0D9E8;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Lesson</div>
+    <div style="font-size:17px; color:#0e1c42;">Lesson 8.03 &middot; Day 3 of 5</div>
+  </div>
+  <div style="flex:1; min-width:140px; padding:12px 16px; border-right:1px solid #D0D9E8;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Topic</div>
+    <div style="font-size:17px; color:#0e1c42; font-style:italic;">Do colors change? A first look at agreement</div>
+  </div>
+  <div style="flex:1; min-width:140px; padding:12px 16px;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Time</div>
+    <div style="font-size:16px; color:#0e1c42;">about 20 minutes</div>
+  </div>
+</div>
+
+<!-- BODY -->
+<div style="padding:24px 34px;">
+
+  <div style="background:#EEF1F8; border-left:5px solid #0E1C42; border-radius:7px; padding:18px 22px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#0e1c42; margin-bottom:6px;">Lesson 8.03 &middot; New grammar, on colors you already know</div>
+    <div style="font-size:22px; color:#0e1c42; margin-bottom:4px;">Some colors change to match the noun</div>
+    <div style="font-size:16px; color:#666;">A gentle first look at "agreement." You don't have to master it &mdash; just notice it.</div>
+  </div>
+
+  <!-- TODAY'S FOCUS -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:12px;">&#128214; TODAY'S FOCUS</div>
+    <div style="font-size:20px; color:#0e1c42; font-style:italic; margin-bottom:10px;">Yesterday's question, answered: yes &mdash; many colors change their ending to match the noun, exactly like <em>amigo</em> became <em>amiga</em>.</div>
+    <div style="font-size:18px; color:#1a2340; line-height:1.65;">The colors are now words you know, so today we can add the <strong>new</strong> idea: colors that end in <span class="masc">-o</span> switch to <span class="fem">-a</span> for a feminine noun. Some other colors don't change at all. This is your first taste of "agreement" &mdash; a pattern you'll fully own later in the year.</div>
+  </div>
+
+  <!-- OBJECTIVES -->
+  <div style="background:#fff; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:14px;">&#127919; BY THE END OF THIS LESSON YOU WILL BE ABLE TO&hellip;</div>
+    <div style="display:flex; align-items:flex-start; gap:12px; margin-bottom:12px;">
+      <div style="min-width:26px; height:26px; border-radius:50%; background:#C7922C; color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">1</div>
+      <div style="font-size:18px; color:#1a2340; line-height:1.65;"><strong>explain</strong> that many colors change their ending to match the noun (<span class="masc">rojo</span> &rarr; <span class="fem">roja</span>).</div>
+    </div>
+    <div style="display:flex; align-items:flex-start; gap:12px; margin-bottom:12px;">
+      <div style="min-width:26px; height:26px; border-radius:50%; background:#C7922C; color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">2</div>
+      <div style="font-size:18px; color:#1a2340; line-height:1.65;"><strong>sort</strong> colors into "changes with gender" vs. "one form for all."</div>
+    </div>
+    <div style="display:flex; align-items:flex-start; gap:12px;">
+      <div style="min-width:26px; height:26px; border-radius:50%; background:#C7922C; color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">3</div>
+      <div style="font-size:18px; color:#1a2340; line-height:1.65;"><strong>pick</strong> the right color ending for a noun you already know.</div>
+    </div>
+  </div>
+
+  <!-- PART 1 · THE PATTERN -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:14px;">&#128218; PART 1 &middot; COLORS THAT CHANGE</div>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0 0 10px 0;">Watch what a color does when it describes different nouns. Remember from Module 2: <span class="masc">el libro</span> is masculine, <span class="fem">la casa</span> is feminine. The color follows along:</p>
+
+    <div class="pattern-wrap">
+      <div class="pat m">
+        <h4>&#9794; With a masculine noun &rarr; <span class="masc">-o</span></h4>
+        <ul>
+          <li>el libro <span class="masc">rojo</span> <span style="color:#888; font-size:14px;">(the red book)</span></li>
+          <li>el carro <span class="masc">amarillo</span> <span style="color:#888; font-size:14px;">(the yellow car)</span></li>
+        </ul>
+      </div>
+      <div class="pat f">
+        <h4>&#9792; With a feminine noun &rarr; <span class="fem">-a</span></h4>
+        <ul>
+          <li>la casa <span class="fem">roja</span> <span style="color:#888; font-size:14px;">(the red house)</span></li>
+          <li>la silla <span class="fem">amarilla</span> <span style="color:#888; font-size:14px;">(the yellow chair)</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:10px 0 0 0;">See it? <span class="masc">rojo</span> becomes <span class="fem">roja</span>; <span class="masc">amarillo</span> becomes <span class="fem">amarilla</span>. The color "agrees" with its noun &mdash; the same <span class="masc">-o</span>/<span class="fem">-a</span> switch you already know from <em>amigo</em>/<em>amiga</em>. Grammar teachers call this <span style="border-bottom:2px dotted #c7922c; cursor:help;" title="Agreement = matching the endings of words that go together. A feminine noun takes the feminine ending of its color.">agreement</span>. You'll practice it fully later &mdash; for now, just notice the switch.</p>
+  </div>
+
+  <!-- PART 2 · COLORS THAT DON'T CHANGE -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:14px;">&#129504; PART 2 &middot; COLORS THAT STAY THE SAME</div>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0 0 10px 0;">Here's the easy news: colors that do <strong>not</strong> end in <span class="masc">-o</span> usually don't change at all. One form works for everything:</p>
+
+    <div class="exc">
+      <div style="display:flex; gap:14px; flex-wrap:wrap; font-size:18px;">
+        <div style="background:#fff; border-radius:7px; padding:8px 16px;">el libro <em>verde</em> &middot; la casa <em>verde</em></div>
+        <div style="background:#fff; border-radius:7px; padding:8px 16px;">el carro <em>azul</em> &middot; la silla <em>azul</em></div>
+        <div style="background:#fff; border-radius:7px; padding:8px 16px;">el gato <em>gris</em> &middot; la mesa <em>gris</em></div>
+      </div>
+    </div>
+    <p style="font-size:16px; color:#1a2340; line-height:1.6; margin:6px 0 0 0;"><em>verde, azul, gris</em> &mdash; same word every time. So the rule of thumb is simple: <strong>if the color ends in <span class="masc">-o</span>, it can switch to <span class="fem">-a</span>; if it ends in another letter, it usually stays put.</strong></p>
+  </div>
+
+  <!-- PART 3 · SORT GAME -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:10px;">&#127918; PART 3 &middot; SORT IT: DOES THE COLOR CHANGE?</div>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0 0 4px 0;">Drag each color into the right bucket. Look at the <strong>ending</strong>: does it end in <span class="masc">-o</span> (can change) or another letter (stays the same)? Correct drops lock in green; wrong ones bounce back.</p>
+
+    <div id="color-sort" class="elw-sort"
+         data-title="Sort the colors by whether they change"
+         data-bins='["Changes with gender (ends in -o)","One form for all (other ending)"]'
+         data-items='[["rojo",0],["amarillo",0],["negro",0],["blanco",0],["morado",0],["verde",1],["azul",1],["gris",1]]'></div>
+  </div>
+
+  <!-- PART 4 · APPLY -->
+  <div class="optima-widget ow-select">
+    <div class="widget-kicker">&#9989; APPLY IT</div>
+    <div class="widget-question">Pick the right color ending. Check the noun's gender first.</div>
+
+    <div class="widget-row" data-correct="b" data-hint="casa is feminine (la casa). Red must match.">
+      <div class="widget-row-prompt">"The red house" &mdash; <em>la casa</em> ___</div>
+      <div class="widget-options">
+        <button data-choice="a" data-fb="la casa is feminine, so red switches to -a: 'roja'.">rojo</button>
+        <button data-choice="b" data-fb="&iexcl;S&iacute;! la casa is feminine, so 'la casa roja'.">roja</button>
+      </div>
+    </div>
+
+    <div class="widget-row" data-correct="a" data-hint="libro is masculine (el libro). Yellow ends in -o.">
+      <div class="widget-row-prompt">"The yellow book" &mdash; <em>el libro</em> ___</div>
+      <div class="widget-options">
+        <button data-choice="a" data-fb="&iexcl;Correcto! el libro is masculine, so 'el libro amarillo'.">amarillo</button>
+        <button data-choice="b" data-fb="el libro is masculine, so yellow stays -o: 'amarillo'.">amarilla</button>
+      </div>
+    </div>
+
+    <div class="widget-row" data-correct="c" data-hint="verde does not end in -o, so it never changes.">
+      <div class="widget-row-prompt">"The green house" &mdash; <em>la casa</em> ___</div>
+      <div class="widget-options">
+        <button data-choice="a" data-fb="There's no 'verda' &mdash; verde doesn't end in -o, so it never changes.">verda</button>
+        <button data-choice="b" data-fb="There's no 'verdo' &mdash; verde stays the same for every noun.">verdo</button>
+        <button data-choice="c" data-fb="&iexcl;Exacto! verde ends in -e, so it stays 'verde' for everything: 'la casa verde'.">verde</button>
+      </div>
+    </div>
+    <button class="widget-reset">Reset</button>
+  </div>
+
+  <!-- MARK AS DONE -->
+  <div class="mark-done">
+    <div class="chk">&#10003;</div>
+    <p><strong>Before you go:</strong> click <strong>"Mark as Done"</strong> at the top of this page. Tomorrow, Lesson 8.04 puts colors on the map &mdash; and reveals the colors hiding in US place names.</p>
+  </div>
+
+  <!-- WRAP-UP -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:12px;">&#128170; ONE IDEA TO CARRY OUT</div>
+    <p style="font-size:18px; color:#1a2340; line-height:1.65; margin:0;">If a color ends in <span class="masc">-o</span>, it can switch to <span class="fem">-a</span> to match a feminine noun. If it ends in another letter, it stays the same. That's your first look at agreement &mdash; and it's the same <span class="masc">-o</span>/<span class="fem">-a</span> pattern you already trust.</p>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<div style="background:#0E1C42; border-top:3px solid #55C8E8; padding:18px 34px; text-align:center;">
+  <div style="font-size:18px; color:#fff; margin-bottom:6px;"><span style="color:#55c8e8;">Optima Academy Online</span> &middot; M/J SPANISH, BEGINNING &middot; Semester 1 &middot; Student Lesson Page</div>
+  <div style="font-size:13px; color:rgba(255,255,255,.65); margin-bottom:4px;">Lesson 8.03 &middot; A first look at agreement</div>
+  <div style="font-size:12px; color:rgba(255,255,255,.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</div>
+
+<script>
+(function () {
+  document.addEventListener('click', function (e) {
+    var reset = e.target.closest('.widget-reset');
+    if (reset) {
+      var w = reset.closest('.optima-widget');
+      w.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected','correct','incorrect'); });
+      w.querySelectorAll('.row-feedback').forEach(function (f) { f.remove(); });
+      return;
+    }
+    var sBtn = e.target.closest('.ow-select .widget-row .widget-options button');
+    if (sBtn) {
+      var row = sBtn.closest('.widget-row');
+      row.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected','correct','incorrect'); });
+      var right = sBtn.dataset.choice === row.dataset.correct;
+      sBtn.classList.add(right ? 'correct' : 'incorrect');
+      var text = right ? (sBtn.dataset.fb || 'Right.') : (sBtn.dataset.fb || row.dataset.hint || 'Not quite — try again.');
+      var rf = row.querySelector('.row-feedback') || row.appendChild(document.createElement('div'));
+      rf.className = 'row-feedback ' + (right ? 'correct' : 'incorrect');
+      rf.textContent = text;
+      return;
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

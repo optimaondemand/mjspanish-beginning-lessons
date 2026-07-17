@@ -1,0 +1,22 @@
+[
+  { "id": "jalisco", "text": "Jalisco" },
+  { "id": "guadalajara", "text": "Guadalajara" },
+  { "id": "nuevo-leon", "text": "Nuevo León" },
+  { "id": "monterrey", "text": "Monterrey" },
+  { "id": "yucatan", "text": "Yucatán" },
+  { "id": "merida", "text": "Mérida" },
+  { "id": "sonora", "text": "Sonora" },
+  { "id": "hermosillo", "text": "Hermosillo" },
+  { "id": "michoacan", "text": "Michoacán" },
+  { "id": "morelia", "text": "Morelia" },
+  { "id": "puebla", "text": "Puebla" },
+  { "id": "oaxaca", "text": "Oaxaca" },
+  { "id": "guanajuato", "text": "Guanajuato" },
+  { "id": "ciudad-de-mexico", "text": "la Ciudad de México" },
+  { "id": "el-mapa", "text": "el mapa" },
+  { "id": "el-estado", "text": "el estado" },
+  { "id": "el-pais", "text": "el país" },
+  { "id": "la-capital", "text": "la capital" },
+  { "id": "la-ciudad", "text": "la ciudad" },
+  { "id": "la-frontera", "text": "la frontera" }
+]

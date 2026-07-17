@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>M/J Spanish, Beginning &mdash; Lesson 4.03</title>
+
+<!-- Forked WL widget kit (GitHub Pages) -->
+<link rel="stylesheet" href="https://optimaondemand.github.io/mjspanish-beginning-lessons/widgets/elatin-widgets.css" />
+<script src="https://optimaondemand.github.io/mjspanish-beginning-lessons/widgets/elatin-widgets.js" defer></script>
+
+<style>
+  :root{ --navy:#0E1C42; --cyan:#55C8E8; --gold:#C7922C; --masc:#1d4ed8; --fem:#c0392b; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; padding:0; font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:#f4f6fa; color:#1a2340; }
+  .preview-banner{ background:#fff3cd; border-bottom:2px solid var(--gold); padding:10px 24px; font-size:13px; color:#6b4f1d; }
+  .preview-banner strong{ color:var(--navy); }
+  .canvas-frame{ max-width:1100px; margin:0 auto; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,.08); }
+
+  .masc{ color:var(--masc); font-weight:700; }
+  .fem{ color:var(--fem); font-weight:700; }
+  .es{ font-style:italic; color:#0e1c42; }
+
+  /* alphabet grid */
+  .abc-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:10px; margin:14px 0; }
+  .abc{ background:#fff; border:1px solid #D0D9E8; border-top:4px solid #55C8E8; border-radius:10px; padding:10px 12px; text-align:center; }
+  .abc .glyph{ font-size:30px; font-weight:700; color:var(--navy); line-height:1; }
+  .abc .name{ font-size:14px; color:#5b6577; font-style:italic; margin:2px 0 6px; }
+  .abc audio{ height:28px; width:100%; max-width:130px; }
+  .abc.special{ border-top-color:var(--gold); background:#FDF6E6; }
+
+  /* r/rr rows */
+  .rr-grid{ display:flex; flex-wrap:wrap; gap:12px; margin:12px 0; }
+  .rr{ flex:1 1 220px; background:#fff; border:1px solid #D0D9E8; border-left:5px solid #55C8E8; border-radius:8px; padding:12px 16px; }
+  .rr .w{ font-size:22px; color:var(--navy); font-weight:700; }
+  .rr .g{ font-size:14px; color:#5b6577; margin:2px 0 6px; }
+  .rr audio{ height:30px; width:100%; max-width:200px; }
+
+  /* spelling-term cards (gendered, color-coded) */
+  .term-grid{ display:flex; flex-wrap:wrap; gap:10px; margin:12px 0; }
+  .term{ flex:1 1 220px; background:#fff; border:1px solid #D0D9E8; border-radius:8px; padding:10px 14px; }
+  .term.m{ border-top:4px solid var(--masc); }
+  .term.f{ border-top:4px solid var(--fem); }
+  .term .w{ font-size:18px; }
+  .term .w.masc{ color:var(--masc); font-weight:700; }
+  .term .w.fem{ color:var(--fem); font-weight:700; }
+  .term .g{ font-size:14px; color:#5b6577; }
+  .term audio{ height:28px; width:100%; max-width:180px; margin-top:6px; }
+
+  /* Mark as Done banner */
+  .mark-done{ background:#FDF6E6; border:1px solid #E7D6A8; border-left:5px solid var(--gold); border-radius:8px; padding:14px 20px; margin:22px 0; display:flex; align-items:center; gap:12px; }
+  .mark-done .chk{ width:34px; height:34px; border-radius:50%; background:var(--gold); color:#fff; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0; }
+  .mark-done p{ margin:0; font-size:15px; color:#1a2340; line-height:1.5; }
+</style>
+</head>
+<body>
+
+<div class="canvas-frame">
+
+<!-- HEADER -->
+<div style="background:#0E1C42; border-bottom:5px solid #55C8E8; padding:22px 34px;">
+  <div style="display:flex; align-items:center; gap:14px; margin-bottom:10px;">
+    <div style="width:52px; height:52px; border-radius:50%; background:#fff; display:flex; align-items:center; justify-content:center; flex-shrink:0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width:50px; height:40px; object-fit:contain;" /></div>
+    <div>
+      <div style="font-size:28px; color:#fff; line-height:1.2;">Optima Academy Online</div>
+      <div style="font-size:12px; color:#55c8e8;">An Education Experience Company</div>
+    </div>
+  </div>
+  <div style="font-size:36px; color:#fff; margin-bottom:6px;">M/J SPANISH, BEGINNING</div>
+</div>
+
+<!-- METADATA STRIP -->
+<div style="background:#fff; border-bottom:2px solid #D0D9E8; display:flex; flex-wrap:wrap;">
+  <div style="flex:1; min-width:140px; padding:12px 16px; border-right:1px solid #D0D9E8;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Semester / Module</div>
+    <div style="font-size:17px; color:#0e1c42;">Semester 1 &middot; Module 4</div>
+    <div style="font-size:12px; color:#666;">El abecedario &mdash; the alphabet</div>
+  </div>
+  <div style="flex:1; min-width:140px; padding:12px 16px; border-right:1px solid #D0D9E8;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Lesson</div>
+    <div style="font-size:17px; color:#0e1c42;">Lesson 4.03 &middot; Day 3 of 5</div>
+  </div>
+  <div style="flex:1; min-width:140px; padding:12px 16px; border-right:1px solid #D0D9E8;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Topic</div>
+    <div style="font-size:17px; color:#0e1c42; font-style:italic;">The letters, their names &amp; the rolling rr</div>
+  </div>
+  <div style="flex:1; min-width:140px; padding:12px 16px;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Time</div>
+    <div style="font-size:16px; color:#0e1c42;">about 20 minutes</div>
+  </div>
+</div>
+
+<!-- BODY -->
+<div style="padding:24px 34px;">
+
+  <div style="background:#EEF1F8; border-left:5px solid #0E1C42; border-radius:7px; padding:18px 22px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#0e1c42; margin-bottom:6px;">LESSON 4.03</div>
+    <div style="font-size:22px; color:#0e1c42; margin-bottom:4px;">El abecedario &mdash; every letter, with sound</div>
+    <div style="font-size:16px; color:#666;">New words today (letter names + spelling terms) &mdash; built on yesterday's "one letter, one sound" idea.</div>
+  </div>
+
+  <!-- TODAY'S FOCUS -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:12px;">&#128214; TODAY'S FOCUS</div>
+    <div style="font-size:20px; color:#0e1c42; font-style:italic; margin-bottom:10px;">Here is the whole Spanish alphabet, one card at a time, with a name you can hear and say.</div>
+    <div style="font-size:18px; color:#1a2340; line-height:1.65;">Press &#9654; on a letter, say its name back, and move on. Don't try to memorize all 27 at once &mdash; you'll play a memory game with them on Friday. Then we'll meet the sound English speakers most want to master: the rolling <span class="es">rr</span>.</div>
+  </div>
+
+  <!-- OBJECTIVES -->
+  <div style="background:#fff; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:14px;">&#127919; BY THE END OF THIS LESSON YOU WILL BE ABLE TO&hellip;</div>
+    <div style="display:flex; align-items:flex-start; gap:12px; margin-bottom:12px;">
+      <div style="min-width:26px; height:26px; border-radius:50%; background:#C7922C; color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">1</div>
+      <div style="font-size:18px; color:#1a2340; line-height:1.65;"><strong>name</strong> the letters of the Spanish alphabet, including the special <span class="es">&ntilde;</span>.</div>
+    </div>
+    <div style="display:flex; align-items:flex-start; gap:12px; margin-bottom:12px;">
+      <div style="min-width:26px; height:26px; border-radius:50%; background:#C7922C; color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">2</div>
+      <div style="font-size:18px; color:#1a2340; line-height:1.65;"><strong>hear and produce</strong> the difference between a soft <span class="es">r</span> and a rolling <span class="es">rr</span>.</div>
+    </div>
+    <div style="display:flex; align-items:flex-start; gap:12px;">
+      <div style="min-width:26px; height:26px; border-radius:50%; background:#C7922C; color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">3</div>
+      <div style="font-size:18px; color:#1a2340; line-height:1.65;"><strong>use</strong> a few spelling words: <span class="fem">la letra</span>, <span class="fem">la may&uacute;scula</span>, <span class="masc">el acento</span>.</div>
+    </div>
+  </div>
+
+  <!-- PART 1 · THE ALPHABET -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:10px;">&#128266; PART 1 &middot; ESCUCHA Y REPITE &mdash; LAS 27 LETRAS</div>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0 0 6px 0;">The Spanish alphabet has <strong>27</strong> letters: the same 26 as English, plus <span class="es">&ntilde;</span> (its own letter, not just an "n"). Tap each one and say the name.</p>
+
+    <div class="abc-grid">
+      <div class="abc"><div class="glyph">A a</div><div class="name">a</div><audio controls preload="none" aria-label="Escuchar: letra a"><source src="../../audio/vocab/letra-a.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">B b</div><div class="name">be</div><audio controls preload="none" aria-label="Escuchar: letra be"><source src="../../audio/vocab/letra-b.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">C c</div><div class="name">ce</div><audio controls preload="none" aria-label="Escuchar: letra ce"><source src="../../audio/vocab/letra-c.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">D d</div><div class="name">de</div><audio controls preload="none" aria-label="Escuchar: letra de"><source src="../../audio/vocab/letra-d.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">E e</div><div class="name">e</div><audio controls preload="none" aria-label="Escuchar: letra e"><source src="../../audio/vocab/letra-e.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">F f</div><div class="name">efe</div><audio controls preload="none" aria-label="Escuchar: letra efe"><source src="../../audio/vocab/letra-f.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">G g</div><div class="name">ge</div><audio controls preload="none" aria-label="Escuchar: letra ge"><source src="../../audio/vocab/letra-g.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">H h</div><div class="name">hache</div><audio controls preload="none" aria-label="Escuchar: letra hache"><source src="../../audio/vocab/letra-h.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">I i</div><div class="name">i</div><audio controls preload="none" aria-label="Escuchar: letra i"><source src="../../audio/vocab/letra-i.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">J j</div><div class="name">jota</div><audio controls preload="none" aria-label="Escuchar: letra jota"><source src="../../audio/vocab/letra-j.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">K k</div><div class="name">ka</div><audio controls preload="none" aria-label="Escuchar: letra ka"><source src="../../audio/vocab/letra-k.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">L l</div><div class="name">ele</div><audio controls preload="none" aria-label="Escuchar: letra ele"><source src="../../audio/vocab/letra-l.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">M m</div><div class="name">eme</div><audio controls preload="none" aria-label="Escuchar: letra eme"><source src="../../audio/vocab/letra-m.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">N n</div><div class="name">ene</div><audio controls preload="none" aria-label="Escuchar: letra ene"><source src="../../audio/vocab/letra-n.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc special"><div class="glyph">&Ntilde; &ntilde;</div><div class="name">e&ntilde;e</div><audio controls preload="none" aria-label="Escuchar: letra e&ntilde;e"><source src="../../audio/vocab/letra-enye.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">O o</div><div class="name">o</div><audio controls preload="none" aria-label="Escuchar: letra o"><source src="../../audio/vocab/letra-o.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">P p</div><div class="name">pe</div><audio controls preload="none" aria-label="Escuchar: letra pe"><source src="../../audio/vocab/letra-p.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">Q q</div><div class="name">cu</div><audio controls preload="none" aria-label="Escuchar: letra cu"><source src="../../audio/vocab/letra-q.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc special"><div class="glyph">R r</div><div class="name">erre</div><audio controls preload="none" aria-label="Escuchar: letra erre"><source src="../../audio/vocab/letra-r.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">S s</div><div class="name">ese</div><audio controls preload="none" aria-label="Escuchar: letra ese"><source src="../../audio/vocab/letra-s.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">T t</div><div class="name">te</div><audio controls preload="none" aria-label="Escuchar: letra te"><source src="../../audio/vocab/letra-t.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">U u</div><div class="name">u</div><audio controls preload="none" aria-label="Escuchar: letra u"><source src="../../audio/vocab/letra-u.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">V v</div><div class="name">uve</div><audio controls preload="none" aria-label="Escuchar: letra uve"><source src="../../audio/vocab/letra-v.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">W w</div><div class="name">uve doble</div><audio controls preload="none" aria-label="Escuchar: letra uve doble"><source src="../../audio/vocab/letra-w.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">X x</div><div class="name">equis</div><audio controls preload="none" aria-label="Escuchar: letra equis"><source src="../../audio/vocab/letra-x.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">Y y</div><div class="name">ye</div><audio controls preload="none" aria-label="Escuchar: letra ye"><source src="../../audio/vocab/letra-y.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="abc"><div class="glyph">Z z</div><div class="name">zeta</div><audio controls preload="none" aria-label="Escuchar: letra zeta"><source src="../../audio/vocab/letra-z.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+    </div>
+
+    <div style="background:#E8F6FB; border-left:5px solid #2196D0; border-radius:6px; padding:12px 16px; font-size:15px; color:#1a2340; line-height:1.55;">&#128161; <strong>Good to know:</strong> these are the official pan-Hispanic letter names. Across much of Latin America you'll also hear <span class="es">be</span> called "be grande / be larga," <span class="es">uve</span> called "ve chica / ve corta," and <span class="es">ye</span> called "i griega." All are correct &mdash; they name the same letters.</div>
+  </div>
+
+  <!-- PART 2 · R vs RR -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:10px;">&#128293; PART 2 &middot; THE SOFT r AND THE ROLLING rr</div>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0 0 6px 0;">Spanish has two R sounds, and they can change a word's meaning:</p>
+    <ul style="font-size:16px; color:#1a2340; line-height:1.7; margin:0 0 8px 0;">
+      <li>A single <span class="es">r</span> <em>between vowels</em> is a soft, quick tap &mdash; close to the "dd" in the American "ladder."</li>
+      <li>A double <span class="es">rr</span> (or an <span class="es">r</span> at the <em>start</em> of a word) is <strong>rolled</strong> &mdash; a trilled "rrr."</li>
+    </ul>
+    <p style="font-size:16px; color:#1a2340; line-height:1.6; margin:0 0 8px 0;">Listen to each pair and try to match it. The rolling sound takes practice &mdash; that is completely normal.</p>
+    <div class="rr-grid">
+      <div class="rr"><div class="w es">pero</div><div class="g">but &mdash; soft, single r</div><audio controls preload="none" aria-label="Escuchar: pero"><source src="../../audio/vocab/pero.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="rr"><div class="w es">perro</div><div class="g">dog &mdash; rolled rr</div><audio controls preload="none" aria-label="Escuchar: perro"><source src="../../audio/vocab/perro.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="rr"><div class="w es">caro</div><div class="g">expensive &mdash; soft, single r</div><audio controls preload="none" aria-label="Escuchar: caro"><source src="../../audio/vocab/caro.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="rr"><div class="w es">carro</div><div class="g">car &mdash; rolled rr</div><audio controls preload="none" aria-label="Escuchar: carro"><source src="../../audio/vocab/carro.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="rr"><div class="w es">rojo</div><div class="g">red &mdash; r at the start rolls</div><audio controls preload="none" aria-label="Escuchar: rojo"><source src="../../audio/vocab/rojo.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="rr"><div class="w es">r&aacute;pido</div><div class="g">fast &mdash; r at the start rolls</div><audio controls preload="none" aria-label="Escuchar: r&aacute;pido"><source src="../../audio/vocab/rapido.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+    </div>
+    <div style="background:#FDF6E6; border:1px solid #E7D6A8; border-left:5px solid var(--gold); border-radius:8px; padding:12px 16px; font-size:15px; color:#1a2340; line-height:1.55;">&#128172; <strong>Hear the difference:</strong> <span class="es">pero</span> (but) and <span class="es">perro</span> (dog) are the same except for the roll &mdash; one soft tap vs. a trill. If the roll won't come yet, keep tapping the single r; it clicks with practice.</div>
+  </div>
+
+  <!-- PART 3 · SPELLING TERMS -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:10px;">&#128221; PART 3 &middot; WORDS FOR TALKING ABOUT SPELLING</div>
+    <p style="font-size:16px; color:#1a2340; line-height:1.6; margin:0 0 6px 0;">A few handy terms &mdash; color-coded by gender, of course.</p>
+    <div class="term-grid">
+      <div class="term m"><div class="w masc">el abecedario</div><div class="g">the alphabet</div><audio controls preload="none" aria-label="Escuchar: el abecedario"><source src="../../audio/vocab/el-abecedario.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="term m"><div class="w masc">el alfabeto</div><div class="g">the alphabet (also)</div><audio controls preload="none" aria-label="Escuchar: el alfabeto"><source src="../../audio/vocab/el-alfabeto.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="term f"><div class="w fem">la letra</div><div class="g">the letter</div><audio controls preload="none" aria-label="Escuchar: la letra"><source src="../../audio/vocab/la-letra.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="term f"><div class="w fem">la may&uacute;scula</div><div class="g">capital / uppercase letter</div><audio controls preload="none" aria-label="Escuchar: la may&uacute;scula"><source src="../../audio/vocab/la-mayuscula.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="term f"><div class="w fem">la min&uacute;scula</div><div class="g">lowercase letter</div><audio controls preload="none" aria-label="Escuchar: la min&uacute;scula"><source src="../../audio/vocab/la-minuscula.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="term m"><div class="w masc">el acento</div><div class="g">the accent mark (as in á, é)</div><audio controls preload="none" aria-label="Escuchar: el acento"><source src="../../audio/vocab/el-acento.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+      <div class="term f"><div class="w fem">la e&ntilde;e</div><div class="g">the letter &ntilde;</div><audio controls preload="none" aria-label="Escuchar: la e&ntilde;e"><source src="../../audio/vocab/la-enye.mp3" type="audio/mpeg">Tu navegador no reproduce audio.</audio></div>
+    </div>
+  </div>
+
+  <!-- MARK AS DONE -->
+  <div class="mark-done">
+    <div class="chk">&#10003;</div>
+    <p><strong>Before you go:</strong> click <strong>"Mark as Done"</strong> at the top of this page. Tomorrow, Lesson 4.04 shows why so many US places <em>sound</em> Spanish &mdash; and how your new letters read them.</p>
+  </div>
+
+  <!-- WRAP-UP -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:12px;">&#128170; ONE IDEA TO CARRY OUT</div>
+    <p style="font-size:18px; color:#1a2340; line-height:1.65; margin:0;">Twenty-seven letters, each with a name and one dependable sound. The rolling <span class="es">rr</span> may take a week &mdash; keep at it. Everything else is already yours.</p>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<div style="background:#0E1C42; border-top:3px solid #55C8E8; padding:18px 34px; text-align:center;">
+  <div style="font-size:18px; color:#fff; margin-bottom:6px;"><span style="color:#55c8e8;">Optima Academy Online</span> &middot; M/J SPANISH, BEGINNING &middot; Semester 1 &middot; Student Lesson Page</div>
+  <div style="font-size:13px; color:rgba(255,255,255,.65); margin-bottom:4px;">Lesson 4.03 &middot; The letters, their names &amp; the rolling rr</div>
+  <div style="font-size:12px; color:rgba(255,255,255,.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</div>
+</body>
+</html>

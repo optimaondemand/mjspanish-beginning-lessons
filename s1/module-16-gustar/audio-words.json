@@ -1,0 +1,13 @@
+[
+  { "id": "la-musica",   "text": "la música" },
+  { "id": "la-pizza",    "text": "la pizza" },
+  { "id": "la-fruta",    "text": "la fruta" },
+  { "id": "el-chocolate","text": "el chocolate" },
+  { "id": "el-futbol",   "text": "el fútbol" },
+  { "id": "los-tacos",   "text": "los tacos" },
+  { "id": "bailar",      "text": "bailar" },
+  { "id": "cantar",      "text": "cantar" },
+  { "id": "leer",        "text": "leer" },
+  { "id": "m16-me-gusta-la-musica",  "text": "Me gusta la música." },
+  { "id": "m16-me-gustan-los-tacos", "text": "Me gustan los tacos." }
+]

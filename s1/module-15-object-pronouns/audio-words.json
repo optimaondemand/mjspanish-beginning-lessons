@@ -1,0 +1,7 @@
+[
+  { "id": "m15-me-da",  "text": "La maestra me da el libro." },
+  { "id": "m15-te-da",  "text": "La maestra te da el taco." },
+  { "id": "m15-le-da",  "text": "La maestra le da el regalo." },
+  { "id": "m15-nos-da", "text": "La maestra nos da el chocolate." },
+  { "id": "m15-les-da", "text": "La maestra les da los tacos." }
+]

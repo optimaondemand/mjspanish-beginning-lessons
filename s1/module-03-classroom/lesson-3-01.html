@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>M/J Spanish, Beginning &mdash; Lesson 3.01</title>
+
+<!-- Forked WL widget kit (GitHub Pages) -->
+<link rel="stylesheet" href="https://optimaondemand.github.io/mjspanish-beginning-lessons/widgets/elatin-widgets.css" />
+<script src="https://optimaondemand.github.io/mjspanish-beginning-lessons/widgets/elatin-widgets.js" defer></script>
+
+<style>
+  :root{ --navy:#0E1C42; --cyan:#55C8E8; --gold:#C7922C; --masc:#1d4ed8; --fem:#c0392b; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; padding:0; font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:#f4f6fa; color:#1a2340; }
+  .preview-banner{ background:#fff3cd; border-bottom:2px solid var(--gold); padding:10px 24px; font-size:13px; color:#6b4f1d; }
+  .preview-banner strong{ color:var(--navy); }
+  .canvas-frame{ max-width:1100px; margin:0 auto; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,.08); }
+
+  .masc{ color:var(--masc); font-weight:700; }
+  .fem{ color:var(--fem); font-weight:700; }
+  .es{ font-style:italic; color:#0e1c42; }
+
+  /* inline check-in widgets */
+  .optima-widget{ background:linear-gradient(135deg,#E8F6FB 0%,#F4F9FC 100%); border:1px solid #C5DCE5; border-left:5px solid #2196D0; border-radius:8px; padding:18px 22px; margin:18px 0; }
+  .widget-kicker{ font-size:11px; color:#1B6A94; margin-bottom:10px; letter-spacing:.4px; }
+  .widget-question{ font-size:17px; color:var(--navy); margin-bottom:14px; line-height:1.55; }
+  .widget-row{ background:#fff; border:1px solid #D0D9E8; border-radius:6px; padding:12px 14px; margin-bottom:10px; }
+  .widget-row-prompt{ font-size:16px; color:var(--navy); margin-bottom:8px; line-height:1.5; }
+  .widget-options{ display:flex; flex-wrap:wrap; gap:8px; }
+  .widget-options button{ background:#fff; border:1.5px solid #D0D9E8; border-radius:8px; padding:8px 16px; font-size:15px; color:var(--navy); cursor:pointer; transition:all .15s; font-family:inherit; }
+  .widget-options button:hover{ background:#F4F6FA; border-color:var(--cyan); }
+  .widget-options button.selected{ background:var(--navy); color:#fff; border-color:var(--navy); }
+  .widget-options button.correct{ background:#D8F0DD; border-color:#2A9D5C; color:#1A6B3D; }
+  .widget-options button.incorrect{ background:#FDECEC; border-color:#C0392B; color:#8A1F16; }
+  .widget-feedback{ background:#fff; border-left:3px solid var(--gold); padding:10px 14px; font-size:15px; color:#1a2340; line-height:1.55; margin:10px 0; display:none; border-radius:4px; }
+  .widget-feedback.show{ display:block; }
+  .row-feedback{ padding:8px 12px; margin-top:8px; font-size:14px; border-radius:4px; line-height:1.5; }
+  .row-feedback.correct{ background:#D8F0DD; border-left:3px solid #2A9D5C; color:#1A6B3D; }
+  .row-feedback.incorrect{ background:#FDECEC; border-left:3px solid #C0392B; color:#8A1F16; }
+  .widget-reset{ background:transparent; border:1px solid var(--gold); color:var(--gold); border-radius:6px; padding:6px 12px; font-size:12px; cursor:pointer; font-family:inherit; margin-top:6px; }
+  .widget-reset:hover{ background:#FDF3E3; }
+
+  /* week preview */
+  .weekrow{ display:flex; gap:12px; align-items:flex-start; padding:10px 0; border-bottom:1px dashed #D0D9E8; }
+  .weekrow:last-child{ border-bottom:none; }
+  .weekrow .n{ min-width:30px; height:30px; border-radius:50%; background:#55C8E8; color:#0E1C42; font-size:14px; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .weekrow.now .n{ background:#0E1C42; color:#fff; }
+  .weekrow .d{ font-size:16px; color:#1a2340; line-height:1.5; }
+  .weekrow .d strong{ color:#0e1c42; }
+
+  /* Mark as Done banner */
+  .mark-done{ background:#FDF6E6; border:1px solid #E7D6A8; border-left:5px solid var(--gold); border-radius:8px; padding:14px 20px; margin:22px 0; display:flex; align-items:center; gap:12px; }
+  .mark-done .chk{ width:34px; height:34px; border-radius:50%; background:var(--gold); color:#fff; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0; }
+  .mark-done p{ margin:0; font-size:15px; color:#1a2340; line-height:1.5; }
+</style>
+</head>
+<body>
+
+<div class="canvas-frame">
+
+<!-- HEADER -->
+<div style="background:#0E1C42; border-bottom:5px solid #55C8E8; padding:22px 34px;">
+  <div style="display:flex; align-items:center; gap:14px; margin-bottom:10px;">
+    <div style="width:52px; height:52px; border-radius:50%; background:#fff; display:flex; align-items:center; justify-content:center; flex-shrink:0;"><img src="https://raw.githubusercontent.com/optimaondemand/optima-assets/eeb0b335630058906d52f478028361d352253a93/images/Optima%20Final%20Circle%20-%20Owl%20Only.png" alt="Optima Academy" style="width:50px; height:40px; object-fit:contain;" /></div>
+    <div>
+      <div style="font-size:28px; color:#fff; line-height:1.2;">Optima Academy Online</div>
+      <div style="font-size:12px; color:#55c8e8;">An Education Experience Company</div>
+    </div>
+  </div>
+  <div style="font-size:36px; color:#fff; margin-bottom:6px;">M/J SPANISH, BEGINNING</div>
+</div>
+
+<!-- METADATA STRIP -->
+<div style="background:#fff; border-bottom:2px solid #D0D9E8; display:flex; flex-wrap:wrap;">
+  <div style="flex:1; min-width:140px; padding:12px 16px; border-right:1px solid #D0D9E8;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Semester / Module</div>
+    <div style="font-size:17px; color:#0e1c42;">Semester 1 &middot; Module 3</div>
+    <div style="font-size:12px; color:#666;">La clase &mdash; the classroom</div>
+  </div>
+  <div style="flex:1; min-width:140px; padding:12px 16px; border-right:1px solid #D0D9E8;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Lesson</div>
+    <div style="font-size:17px; color:#0e1c42;">Lesson 3.01 &middot; Day 1 of 5</div>
+  </div>
+  <div style="flex:1; min-width:140px; padding:12px 16px; border-right:1px solid #D0D9E8;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Topic</div>
+    <div style="font-size:17px; color:#0e1c42; font-style:italic;">Welcome to la clase</div>
+  </div>
+  <div style="flex:1; min-width:140px; padding:12px 16px;">
+    <div style="font-size:11px; color:#6b7a99; margin-bottom:4px;">Time</div>
+    <div style="font-size:16px; color:#0e1c42;">about 20 minutes</div>
+  </div>
+</div>
+
+<!-- BODY -->
+<div style="padding:24px 34px;">
+
+  <div style="background:#EEF1F8; border-left:5px solid #0E1C42; border-radius:7px; padding:18px 22px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#0e1c42; margin-bottom:6px;">LESSON 3.01</div>
+    <div style="font-size:22px; color:#0e1c42; margin-bottom:4px;">&iexcl;Bienvenido a la clase!</div>
+    <div style="font-size:16px; color:#666;">A warm-up for the week &mdash; a quick look back, then a look at everything you'll be able to name and do by Friday.</div>
+  </div>
+
+  <!-- FOCUS -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:12px;">&#128075; TODAY'S BIG IDEA</div>
+    <div style="font-size:20px; color:#0e1c42; font-style:italic; margin-bottom:10px;">The classroom is the one place you spend hours in every day &mdash; so it's the perfect place to start naming the world in Spanish.</div>
+    <div style="font-size:18px; color:#1a2340; line-height:1.65;">This week you'll learn the Spanish words for the things around you at school, and you'll start to <em>understand and follow</em> the little commands a Spanish teacher gives all day &mdash; "listen," "look," "open your book." Nothing to memorize today: we just warm up and preview the week.</div>
+  </div>
+
+  <!-- OBJECTIVES -->
+  <div style="background:#fff; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:14px;">&#127919; BY THE END OF THIS PAGE YOU WILL BE ABLE TO&hellip;</div>
+    <div style="display:flex; align-items:flex-start; gap:12px; margin-bottom:12px;">
+      <div style="min-width:26px; height:26px; border-radius:50%; background:#C7922C; color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">1</div>
+      <div style="font-size:18px; color:#1a2340; line-height:1.65;"><strong>recall</strong> the two big ideas you already own: the five fixed vowels, and <span class="masc">el</span>&nbsp;/&nbsp;<span class="fem">la</span> gender.</div>
+    </div>
+    <div style="display:flex; align-items:flex-start; gap:12px; margin-bottom:12px;">
+      <div style="min-width:26px; height:26px; border-radius:50%; background:#C7922C; color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">2</div>
+      <div style="font-size:18px; color:#1a2340; line-height:1.65;"><strong>name</strong> what "a command" is &mdash; language that tells you to <em>do</em> something.</div>
+    </div>
+    <div style="display:flex; align-items:flex-start; gap:12px;">
+      <div style="min-width:26px; height:26px; border-radius:50%; background:#C7922C; color:#fff; font-size:13px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">3</div>
+      <div style="font-size:18px; color:#1a2340; line-height:1.65;"><strong>preview</strong> the week and know what's coming each day.</div>
+    </div>
+  </div>
+
+  <!-- PART 1 · HOOK -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:12px;">&#128218; PART 1 &middot; LOOK AROUND YOU</div>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0 0 10px 0;">Wherever you're sitting right now, look up for a second. A desk. A book. A pencil. A door. A window. In an in-person Spanish class, the room itself becomes the lesson &mdash; the teacher points and names things, tells you to open your book or look at the board, and you just <em>do</em> it. You learn without even translating.</p>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0;">That's exactly what this week does. By Friday you'll be able to name the objects around you in Spanish and follow a handful of classroom instructions &mdash; the same ones a teacher uses every single day.</p>
+  </div>
+
+  <!-- PART 2 · RETRIEVE PRIOR -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:12px;">&#129504; PART 2 &middot; QUICK RECALL &mdash; YOU ALREADY OWN THESE</div>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0 0 6px 0;">Before we add anything new, let's dust off the two tools you built in Modules 1 and 2. You'll use both all week.</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap; margin:12px 0;">
+      <div style="flex:1 1 240px; background:#EEF1F8; border-radius:10px; padding:14px 18px;">
+        <div style="font-size:15px; color:var(--navy); font-weight:700; margin-bottom:4px;">Module 1 &middot; The five vowels</div>
+        <div style="font-size:15px; color:#1a2340; line-height:1.55;">a-e-i-o-u &mdash; five sounds that never change. You'll read every new word this week with them.</div>
+      </div>
+      <div style="flex:1 1 240px; background:#EEF1F8; border-radius:10px; padding:14px 18px;">
+        <div style="font-size:15px; color:var(--navy); font-weight:700; margin-bottom:4px;">Module 2 &middot; <span class="masc">el</span> / <span class="fem">la</span></div>
+        <div style="font-size:15px; color:#1a2340; line-height:1.55;">Ends in <span class="masc">-o</span> &rarr; usually <span class="masc">el</span>. Ends in <span class="fem">-a</span> &rarr; usually <span class="fem">la</span>. Every classroom word this week is color-coded the same way.</div>
+      </div>
+    </div>
+
+    <div class="optima-widget ow-select">
+      <div class="widget-kicker">&#9989; WARM UP YOUR MEMORY</div>
+      <div class="widget-question">Two quick ones from last week &mdash; just to prove it stuck.</div>
+
+      <div class="widget-row" data-correct="b" data-hint="Read the last letter and use the -o/-a rule.">
+        <div class="widget-row-prompt">The word <span class="es">mesa</span> (table) ends in <strong>-a</strong>. Which article goes with it?</div>
+        <div class="widget-options">
+          <button data-choice="a" data-fb="mesa ends in -a &rarr; feminine &rarr; la mesa.">el mesa</button>
+          <button data-choice="b" data-fb="&iexcl;S&iacute;! la mesa &mdash; ends in -a, so it's feminine.">la mesa</button>
+        </div>
+      </div>
+
+      <div class="widget-row" data-correct="a" data-hint="Spanish vowels never change their sound.">
+        <div class="widget-row-prompt">In the word <span class="es">libro</span> (book), how do you pronounce the letter <strong>i</strong>?</div>
+        <div class="widget-options">
+          <button data-choice="a" data-fb="Right &mdash; Spanish i is always the 'ee' in see: LEE-bro.">like 'ee' in <em>see</em></button>
+          <button data-choice="b" data-fb="That's an English 'eye' sound. Spanish i is always 'ee'.">like 'eye' in <em>sky</em></button>
+        </div>
+      </div>
+      <button class="widget-reset">Reset</button>
+    </div>
+  </div>
+
+  <!-- PART 3 · NAME THE NEW IDEA -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:12px;">&#128161; PART 3 &middot; A NEW KIND OF SENTENCE: THE COMMAND</div>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0 0 10px 0;">You already know English commands, even if you've never called them that. When a coach says "<em>Run!</em>" or a sign says "<em>Push</em>," that's a <strong>command</strong> &mdash; language that tells someone to <em>do</em> something. It doesn't describe; it directs.</p>
+    <p style="font-size:17px; color:#1a2340; line-height:1.65; margin:0;">Spanish classrooms run on a small set of these: <span class="es">Escuche</span> (Listen), <span class="es">Mire</span> (Look), <span class="es">Abra el libro</span> (Open the book). This week your job is to <strong>understand and respond</strong> to them &mdash; not to produce them yet. Just like a real first day, you'll learn to <em>do</em> before you learn to <em>say</em>. Tomorrow you meet the commands themselves.</p>
+  </div>
+
+  <!-- WEEK PREVIEW -->
+  <div style="background:#fff; border-top:3px solid #0E1C42; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#0e1c42; margin-bottom:12px;">&#128197; YOUR WEEK AT A GLANCE &middot; MODULE 3</div>
+    <div class="weekrow now">
+      <div class="n">1</div>
+      <div class="d"><strong>Today &mdash; Welcome to la clase.</strong> A recall warm-up and a preview of the week.</div>
+    </div>
+    <div class="weekrow">
+      <div class="n">2</div>
+      <div class="d"><strong>Classroom commands.</strong> The instructions you'll hear all year &mdash; listen, look, open, repeat &mdash; and how to respond to them.</div>
+    </div>
+    <div class="weekrow">
+      <div class="n">3</div>
+      <div class="d"><strong>Objects in the classroom.</strong> Flip cards, sound, and gender color-coding for the things around you.</div>
+    </div>
+    <div class="weekrow">
+      <div class="n">4</div>
+      <div class="d"><strong>Spanish in your world.</strong> Everyday English words that came from Spanish &mdash; <em class="es">cafeteria, ranch, corral</em> &mdash; plus commands and objects put together.</div>
+    </div>
+    <div class="weekrow">
+      <div class="n">5</div>
+      <div class="d"><strong>Review &amp; self-check.</strong> A matching game, a readiness check, and your Module 3 Quick Check.</div>
+    </div>
+  </div>
+
+  <!-- VIRTUE / MISSION LIGHT -->
+  <div style="background:#F5E7E8; border:1px solid #E0B8BD; border-left:5px solid #AA1E2D; border-radius:8px; padding:16px 20px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#AA1E2D; letter-spacing:.4px; margin-bottom:6px;">&#9733; A WORD ON RESPONSIBILITY</div>
+    <p style="font-size:16px; color:#1a2340; line-height:1.6; margin:0;">Learning to <em>listen</em> and <em>respond</em> to instructions in another language takes a small kind of <strong>self-government</strong> &mdash; slowing down, paying attention, doing the thing before rushing ahead. That patience is exactly what makes the rest of the year easier.</p>
+  </div>
+
+  <!-- MARK AS DONE -->
+  <div class="mark-done">
+    <div class="chk">&#10003;</div>
+    <p><strong>Before you go:</strong> click <strong>"Mark as Done"</strong> at the top of this page. Next up, Lesson 3.02 introduces the classroom commands you'll hear every day.</p>
+  </div>
+
+  <!-- WRAP-UP -->
+  <div style="background:#fff; border-top:3px solid #C7922C; border:1px solid #D0D9E8; border-radius:8px; padding:20px 24px; margin-bottom:20px;">
+    <div style="font-size:11px; color:#c7922c; margin-bottom:12px;">&#128170; ONE IDEA TO CARRY OUT</div>
+    <p style="font-size:18px; color:#1a2340; line-height:1.65; margin:0;">You're not starting this module from zero &mdash; you carry your vowels and your <span class="masc">el</span>/<span class="fem">la</span> radar into it. This week just points them at the room around you.</p>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<div style="background:#0E1C42; border-top:3px solid #55C8E8; padding:18px 34px; text-align:center;">
+  <div style="font-size:18px; color:#fff; margin-bottom:6px;"><span style="color:#55c8e8;">Optima Academy Online</span> &middot; M/J SPANISH, BEGINNING &middot; Semester 1 &middot; Student Lesson Page</div>
+  <div style="font-size:13px; color:rgba(255,255,255,.65); margin-bottom:4px;">Lesson 3.01 &middot; Welcome to la clase</div>
+  <div style="font-size:12px; color:rgba(255,255,255,.4);">&copy; Optima Academy Online &middot; An Education Experience Company</div>
+</div>
+
+</div>
+
+<script>
+(function () {
+  document.addEventListener('click', function (e) {
+    var reset = e.target.closest('.widget-reset');
+    if (reset) {
+      var w = reset.closest('.optima-widget');
+      w.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected','correct','incorrect'); });
+      w.querySelectorAll('.widget-feedback').forEach(function (f) { f.classList.remove('show'); f.textContent = ''; });
+      w.querySelectorAll('.row-feedback').forEach(function (f) { f.remove(); });
+      return;
+    }
+    var rBtn = e.target.closest('.ow-reflect .widget-options button');
+    if (rBtn) {
+      var rw = rBtn.closest('.optima-widget');
+      rw.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected'); });
+      rBtn.classList.add('selected');
+      var fb = rw.querySelector('.widget-feedback');
+      fb.textContent = rBtn.dataset.response || '';
+      fb.classList.add('show');
+      return;
+    }
+    var sBtn = e.target.closest('.ow-select .widget-row .widget-options button');
+    if (sBtn) {
+      var row = sBtn.closest('.widget-row');
+      row.querySelectorAll('.widget-options button').forEach(function (b) { b.classList.remove('selected','correct','incorrect'); });
+      var right = sBtn.dataset.choice === row.dataset.correct;
+      sBtn.classList.add(right ? 'correct' : 'incorrect');
+      var text = right ? (sBtn.dataset.fb || 'Right.') : (sBtn.dataset.fb || row.dataset.hint || 'Not quite — try again.');
+      var rf = row.querySelector('.row-feedback') || row.appendChild(document.createElement('div'));
+      rf.className = 'row-feedback ' + (right ? 'correct' : 'incorrect');
+      rf.textContent = text;
+      return;
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

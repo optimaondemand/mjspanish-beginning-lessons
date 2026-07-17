@@ -1,0 +1,10 @@
+[
+  { "id": "la-madre", "text": "la madre" },
+  { "id": "el-padre", "text": "el padre" },
+  { "id": "el-hermano", "text": "el hermano" },
+  { "id": "la-hermana", "text": "la hermana" },
+  { "id": "el-hijo", "text": "el hijo" },
+  { "id": "la-hija", "text": "la hija" },
+  { "id": "generoso", "text": "generoso" },
+  { "id": "inteligente", "text": "inteligente" }
+]

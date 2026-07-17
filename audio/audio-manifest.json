@@ -1,0 +1,1057 @@
+﻿{
+    "letra-f":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-f.mp3",
+                    "text":  "efe"
+                },
+    "gris":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/gris.mp3",
+                 "text":  "gris"
+             },
+    "el-boligrafo":  {
+                         "voice":  "Microsoft Sabina Desktop",
+                         "file":  "audio/vocab/el-boligrafo.mp3",
+                         "text":  "el bolÃ­grafo"
+                     },
+    "rapido":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/rapido.mp3",
+                   "text":  "rÃ¡pido"
+               },
+    "la-vaca":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/la-vaca.mp3",
+                    "text":  "la vaca"
+                },
+    "puebla":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/puebla.mp3",
+                   "text":  "Puebla"
+               },
+    "buenas-tardes":  {
+                          "voice":  "Microsoft Sabina Desktop",
+                          "file":  "audio/vocab/buenas-tardes.mp3",
+                          "text":  "Buenas tardes"
+                      },
+    "la-zona":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/la-zona.mp3",
+                    "text":  "la zona"
+                },
+    "el-dia-de-los-muertos":  {
+                                  "voice":  "Microsoft Sabina Desktop",
+                                  "file":  "audio/vocab/el-dia-de-los-muertos.mp3",
+                                  "text":  "el DÃ­a de los Muertos"
+                              },
+    "m15-les-da":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/m15-les-da.mp3",
+                       "text":  "La maestra les da los tacos."
+                   },
+    "abra-el-libro":  {
+                          "voice":  "Microsoft Sabina Desktop",
+                          "file":  "audio/vocab/abra-el-libro.mp3",
+                          "text":  "Abra el libro"
+                      },
+    "letra-w":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-w.mp3",
+                    "text":  "uve doble"
+                },
+    "el-chocolate":  {
+                         "voice":  "Microsoft Sabina Desktop",
+                         "file":  "audio/vocab/el-chocolate.mp3",
+                         "text":  "el chocolate"
+                     },
+    "al-norte-de":  {
+                        "voice":  "Microsoft Sabina Desktop",
+                        "file":  "audio/vocab/al-norte-de.mp3",
+                        "text":  "al norte de"
+                    },
+    "ella":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/ella.mp3",
+                 "text":  "ella"
+             },
+    "carro":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/carro.mp3",
+                  "text":  "carro"
+              },
+    "el-dedo":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/el-dedo.mp3",
+                    "text":  "el dedo"
+                },
+    "morelia":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/morelia.mp3",
+                    "text":  "Morelia"
+                },
+    "la-mochila":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/la-mochila.mp3",
+                       "text":  "la mochila"
+                   },
+    "el-escritorio":  {
+                          "voice":  "Microsoft Sabina Desktop",
+                          "file":  "audio/vocab/el-escritorio.mp3",
+                          "text":  "el escritorio"
+                      },
+    "adios":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/adios.mp3",
+                  "text":  "AdiÃ³s"
+              },
+    "creativo":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/creativo.mp3",
+                     "text":  "creativo"
+                 },
+    "el-altar":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/el-altar.mp3",
+                     "text":  "el altar"
+                 },
+    "guadalajara":  {
+                        "voice":  "Microsoft Sabina Desktop",
+                        "file":  "audio/vocab/guadalajara.mp3",
+                        "text":  "Guadalajara"
+                    },
+    "blanco":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/blanco.mp3",
+                   "text":  "blanco"
+               },
+    "la-puerta":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/la-puerta.mp3",
+                      "text":  "la puerta"
+                  },
+    "la-tia":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/la-tia.mp3",
+                   "text":  "la tÃ­a"
+               },
+    "serio":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/serio.mp3",
+                  "text":  "serio"
+              },
+    "valiente":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/valiente.mp3",
+                     "text":  "valiente"
+                 },
+    "ellos":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/ellos.mp3",
+                  "text":  "ellos"
+              },
+    "usted":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/usted.mp3",
+                  "text":  "usted"
+              },
+    "el-pronombre":  {
+                         "voice":  "Microsoft Sabina Desktop",
+                         "file":  "audio/vocab/el-pronombre.mp3",
+                         "text":  "Ã©l"
+                     },
+    "la-doctora":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/la-doctora.mp3",
+                       "text":  "la doctora"
+                   },
+    "letra-m":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-m.mp3",
+                    "text":  "eme"
+                },
+    "el-pais":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/el-pais.mp3",
+                    "text":  "el paÃ­s"
+                },
+    "letra-enye":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/letra-enye.mp3",
+                       "text":  "eÃ±e"
+                   },
+    "mucho-gusto":  {
+                        "voice":  "Microsoft Sabina Desktop",
+                        "file":  "audio/vocab/mucho-gusto.mp3",
+                        "text":  "Mucho gusto."
+                    },
+    "nosotras":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/nosotras.mp3",
+                     "text":  "nosotras"
+                 },
+    "amable":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/amable.mp3",
+                   "text":  "amable"
+               },
+    "letra-k":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-k.mp3",
+                    "text":  "ka"
+                },
+    "la-profesora":  {
+                         "voice":  "Microsoft Sabina Desktop",
+                         "file":  "audio/vocab/la-profesora.mp3",
+                         "text":  "la profesora"
+                     },
+    "la-ventana":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/la-ventana.mp3",
+                       "text":  "la ventana"
+                   },
+    "esta-en":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/esta-en.mp3",
+                    "text":  "estÃ¡ en"
+                },
+    "de-donde-eres":  {
+                          "voice":  "Microsoft Sabina Desktop",
+                          "file":  "audio/vocab/de-donde-eres.mp3",
+                          "text":  "Â¿De dÃ³nde eres?"
+                      },
+    "leer":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/leer.mp3",
+                 "text":  "leer"
+             },
+    "son":  {
+                "voice":  "Microsoft Sabina Desktop",
+                "file":  "audio/vocab/son.mp3",
+                "text":  "son"
+            },
+    "jalisco":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/jalisco.mp3",
+                    "text":  "Jalisco"
+                },
+    "la-taza":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/la-taza.mp3",
+                    "text":  "la taza"
+                },
+    "estoy":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/estoy.mp3",
+                  "text":  "estoy"
+              },
+    "el-primo":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/el-primo.mp3",
+                     "text":  "el primo"
+                 },
+    "levantese":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/levantese.mp3",
+                      "text":  "LevÃ¡ntese"
+                  },
+    "que-le-vaya-bien":  {
+                             "voice":  "Microsoft Sabina Desktop",
+                             "file":  "audio/vocab/que-le-vaya-bien.mp3",
+                             "text":  "Que le vaya bien"
+                         },
+    "la-foto":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/la-foto.mp3",
+                    "text":  "la foto"
+                },
+    "la-salsa":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/la-salsa.mp3",
+                     "text":  "la salsa"
+                 },
+    "el-papel-picado":  {
+                            "voice":  "Microsoft Sabina Desktop",
+                            "file":  "audio/vocab/el-papel-picado.mp3",
+                            "text":  "el papel picado"
+                        },
+    "el-futbol":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/el-futbol.mp3",
+                      "text":  "el fÃºtbol"
+                  },
+    "el-cielo":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/el-cielo.mp3",
+                     "text":  "el cielo"
+                 },
+    "los-tacos":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/los-tacos.mp3",
+                      "text":  "los tacos"
+                  },
+    "lejos-de":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/lejos-de.mp3",
+                     "text":  "lejos de"
+                 },
+    "el-lapiz":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/el-lapiz.mp3",
+                     "text":  "el lÃ¡piz"
+                 },
+    "muy-bien":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/muy-bien.mp3",
+                     "text":  "Muy bien"
+                 },
+    "el-libro":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/el-libro.mp3",
+                     "text":  "el libro"
+                 },
+    "nerviosa":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/nerviosa.mp3",
+                     "text":  "nerviosa"
+                 },
+    "el-artista":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/el-artista.mp3",
+                       "text":  "el artista"
+                   },
+    "la-frontera":  {
+                        "voice":  "Microsoft Sabina Desktop",
+                        "file":  "audio/vocab/la-frontera.mp3",
+                        "text":  "la frontera"
+                    },
+    "el-cuaderno":  {
+                        "voice":  "Microsoft Sabina Desktop",
+                        "file":  "audio/vocab/el-cuaderno.mp3",
+                        "text":  "el cuaderno"
+                    },
+    "simpatico":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/simpatico.mp3",
+                      "text":  "simpÃ¡tico"
+                  },
+    "ellas":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/ellas.mp3",
+                  "text":  "ellas"
+              },
+    "letra-o":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-o.mp3",
+                    "text":  "o"
+                },
+    "cansado":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/cansado.mp3",
+                    "text":  "cansado"
+                },
+    "el-tio":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/el-tio.mp3",
+                   "text":  "el tÃ­o"
+               },
+    "m15-nos-da":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/m15-nos-da.mp3",
+                       "text":  "La maestra nos da el chocolate."
+                   },
+    "la-silla":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/la-silla.mp3",
+                     "text":  "la silla"
+                 },
+    "contento":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/contento.mp3",
+                     "text":  "contento"
+                 },
+    "rojo":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/rojo.mp3",
+                 "text":  "rojo"
+             },
+    "contenta":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/contenta.mp3",
+                     "text":  "contenta"
+                 },
+    "letra-p":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-p.mp3",
+                    "text":  "pe"
+                },
+    "merida":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/merida.mp3",
+                   "text":  "MÃ©rida"
+               },
+    "la-calavera":  {
+                        "voice":  "Microsoft Sabina Desktop",
+                        "file":  "audio/vocab/la-calavera.mp3",
+                        "text":  "la calavera"
+                    },
+    "letra-h":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-h.mp3",
+                    "text":  "hache"
+                },
+    "el-pan-de-muerto":  {
+                             "voice":  "Microsoft Sabina Desktop",
+                             "file":  "audio/vocab/el-pan-de-muerto.mp3",
+                             "text":  "el pan de muerto"
+                         },
+    "encantada":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/encantada.mp3",
+                      "text":  "Encantada."
+                  },
+    "mal":  {
+                "voice":  "Microsoft Sabina Desktop",
+                "file":  "audio/vocab/mal.mp3",
+                "text":  "Mal"
+            },
+    "el-doctor":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/el-doctor.mp3",
+                      "text":  "el doctor"
+                  },
+    "la-ofrenda":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/la-ofrenda.mp3",
+                       "text":  "la ofrenda"
+                   },
+    "la-hermana":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/la-hermana.mp3",
+                       "text":  "la hermana"
+                   },
+    "amarillo":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/amarillo.mp3",
+                     "text":  "amarillo"
+                 },
+    "eres":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/eres.mp3",
+                 "text":  "eres"
+             },
+    "esta":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/esta.mp3",
+                 "text":  "estÃ¡"
+             },
+    "letra-a":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-a.mp3",
+                    "text":  "a"
+                },
+    "letra-g":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-g.mp3",
+                    "text":  "ge"
+                },
+    "mire":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/mire.mp3",
+                 "text":  "Mire"
+             },
+    "la-prima":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/la-prima.mp3",
+                     "text":  "la prima"
+                 },
+    "pero":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/pero.mp3",
+                 "text":  "pero"
+             },
+    "la-boca":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/la-boca.mp3",
+                    "text":  "la boca"
+                },
+    "el-hijo":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/el-hijo.mp3",
+                    "text":  "el hijo"
+                },
+    "el-profesor":  {
+                        "voice":  "Microsoft Sabina Desktop",
+                        "file":  "audio/vocab/el-profesor.mp3",
+                        "text":  "el profesor"
+                    },
+    "el-abuelo":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/el-abuelo.mp3",
+                      "text":  "el abuelo"
+                  },
+    "bailar":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/bailar.mp3",
+                   "text":  "bailar"
+               },
+    "la-ciudad":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/la-ciudad.mp3",
+                      "text":  "la ciudad"
+                  },
+    "bien":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/bien.mp3",
+                 "text":  "bien"
+             },
+    "letra-s":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-s.mp3",
+                    "text":  "ese"
+                },
+    "como-estas":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/como-estas.mp3",
+                       "text":  "Â¿CÃ³mo estÃ¡s?"
+                   },
+    "la-fruta":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/la-fruta.mp3",
+                     "text":  "la fruta"
+                 },
+    "hasta-luego":  {
+                        "voice":  "Microsoft Sabina Desktop",
+                        "file":  "audio/vocab/hasta-luego.mp3",
+                        "text":  "Hasta luego"
+                    },
+    "el-actor":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/el-actor.mp3",
+                     "text":  "el actor"
+                 },
+    "letra-x":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-x.mp3",
+                    "text":  "equis"
+                },
+    "letra-e":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-e.mp3",
+                    "text":  "e"
+                },
+    "sientese":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/sientese.mp3",
+                     "text":  "SiÃ©ntese"
+                 },
+    "caro":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/caro.mp3",
+                 "text":  "caro"
+             },
+    "el-acento":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/el-acento.mp3",
+                      "text":  "el acento"
+                  },
+    "somos":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/somos.mp3",
+                  "text":  "somos"
+              },
+    "guanajuato":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/guanajuato.mp3",
+                       "text":  "Guanajuato"
+                   },
+    "igualmente":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/igualmente.mp3",
+                       "text":  "Igualmente."
+                   },
+    "m15-me-da":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/m15-me-da.mp3",
+                      "text":  "La maestra me da el libro."
+                  },
+    "letra-l":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-l.mp3",
+                    "text":  "ele"
+                },
+    "nuevo-leon":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/nuevo-leon.mp3",
+                       "text":  "Nuevo LeÃ³n"
+                   },
+    "nosotros":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/nosotros.mp3",
+                     "text":  "nosotros"
+                 },
+    "el-hermano":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/el-hermano.mp3",
+                       "text":  "el hermano"
+                   },
+    "letra-d":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-d.mp3",
+                    "text":  "de"
+                },
+    "letra-b":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-b.mp3",
+                    "text":  "be"
+                },
+    "verde":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/verde.mp3",
+                  "text":  "verde"
+              },
+    "timido":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/timido.mp3",
+                   "text":  "tÃ­mido"
+               },
+    "negro":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/negro.mp3",
+                  "text":  "negro"
+              },
+    "buenos-dias":  {
+                        "voice":  "Microsoft Sabina Desktop",
+                        "file":  "audio/vocab/buenos-dias.mp3",
+                        "text":  "Buenos dÃ­as"
+                    },
+    "m16-me-gustan-los-tacos":  {
+                                    "voice":  "Microsoft Sabina Desktop",
+                                    "file":  "audio/vocab/m16-me-gustan-los-tacos.mp3",
+                                    "text":  "Me gustan los tacos."
+                                },
+    "letra-v":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-v.mp3",
+                    "text":  "uve"
+                },
+    "cerca-de":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/cerca-de.mp3",
+                     "text":  "cerca de"
+                 },
+    "perro":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/perro.mp3",
+                  "text":  "perro"
+              },
+    "yo":  {
+               "voice":  "Microsoft Sabina Desktop",
+               "file":  "audio/vocab/yo.mp3",
+               "text":  "yo"
+           },
+    "la-hija":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/la-hija.mp3",
+                    "text":  "la hija"
+                },
+    "letra-q":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-q.mp3",
+                    "text":  "cu"
+                },
+    "que-tal":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/que-tal.mp3",
+                    "text":  "Â¿QuÃ© tal?"
+                },
+    "encantado":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/encantado.mp3",
+                      "text":  "Encantado."
+                  },
+    "la-flor-de-cempasuchil":  {
+                                   "voice":  "Microsoft Sabina Desktop",
+                                   "file":  "audio/vocab/la-flor-de-cempasuchil.mp3",
+                                   "text":  "la flor de cempasÃºchil"
+                               },
+    "el-alfabeto":  {
+                        "voice":  "Microsoft Sabina Desktop",
+                        "file":  "audio/vocab/el-alfabeto.mp3",
+                        "text":  "el alfabeto"
+                    },
+    "morado":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/morado.mp3",
+                   "text":  "morado"
+               },
+    "oaxaca":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/oaxaca.mp3",
+                   "text":  "Oaxaca"
+               },
+    "la-familia":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/la-familia.mp3",
+                       "text":  "la familia"
+                   },
+    "el-zapato":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/el-zapato.mp3",
+                      "text":  "el zapato"
+                  },
+    "soy":  {
+                "voice":  "Microsoft Sabina Desktop",
+                "file":  "audio/vocab/soy.mp3",
+                "text":  "soy"
+            },
+    "paciente":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/paciente.mp3",
+                     "text":  "paciente"
+                 },
+    "comico":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/comico.mp3",
+                   "text":  "cÃ³mico"
+               },
+    "anaranjado":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/anaranjado.mp3",
+                       "text":  "anaranjado"
+                   },
+    "aqui":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/aqui.mp3",
+                 "text":  "aquÃ­"
+             },
+    "hermosillo":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/hermosillo.mp3",
+                       "text":  "Hermosillo"
+                   },
+    "regular":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/regular.mp3",
+                    "text":  "Regular"
+                },
+    "letra-u":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-u.mp3",
+                    "text":  "u"
+                },
+    "la-pizarra":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/la-pizarra.mp3",
+                       "text":  "la pizarra"
+                   },
+    "la-vela":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/la-vela.mp3",
+                    "text":  "la vela"
+                },
+    "sonora":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/sonora.mp3",
+                   "text":  "Sonora"
+               },
+    "el-abecedario":  {
+                          "voice":  "Microsoft Sabina Desktop",
+                          "file":  "audio/vocab/el-abecedario.mp3",
+                          "text":  "el abecedario"
+                      },
+    "la-madre":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/la-madre.mp3",
+                     "text":  "la madre"
+                 },
+    "m15-le-da":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/m15-le-da.mp3",
+                      "text":  "La maestra le da el regalo."
+                  },
+    "letra-i":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-i.mp3",
+                    "text":  "i"
+                },
+    "cantar":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/cantar.mp3",
+                   "text":  "cantar"
+               },
+    "yucatan":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/yucatan.mp3",
+                    "text":  "YucatÃ¡n"
+                },
+    "m16-me-gusta-la-musica":  {
+                                   "voice":  "Microsoft Sabina Desktop",
+                                   "file":  "audio/vocab/m16-me-gusta-la-musica.mp3",
+                                   "text":  "Me gusta la mÃºsica."
+                               },
+    "el-estado":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/el-estado.mp3",
+                      "text":  "el estado"
+                  },
+    "letra-z":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-z.mp3",
+                    "text":  "zeta"
+                },
+    "estas":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/estas.mp3",
+                  "text":  "estÃ¡s"
+              },
+    "la-musica":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/la-musica.mp3",
+                      "text":  "la mÃºsica"
+                  },
+    "buenas-noches":  {
+                          "voice":  "Microsoft Sabina Desktop",
+                          "file":  "audio/vocab/buenas-noches.mp3",
+                          "text":  "Buenas noches"
+                      },
+    "escriba":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/escriba.mp3",
+                    "text":  "Escriba"
+                },
+    "cafe":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/cafe.mp3",
+                 "text":  "cafÃ©"
+             },
+    "letra-c":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-c.mp3",
+                    "text":  "ce"
+                },
+    "chao":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/chao.mp3",
+                 "text":  "Chao"
+             },
+    "la-mesa":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/la-mesa.mp3",
+                    "text":  "la mesa"
+                },
+    "la-mayuscula":  {
+                         "voice":  "Microsoft Sabina Desktop",
+                         "file":  "audio/vocab/la-mayuscula.mp3",
+                         "text":  "la mayÃºscula"
+                     },
+    "es":  {
+               "voice":  "Microsoft Sabina Desktop",
+               "file":  "audio/vocab/es.mp3",
+               "text":  "es"
+           },
+    "tu":  {
+               "voice":  "Microsoft Sabina Desktop",
+               "file":  "audio/vocab/tu.mp3",
+               "text":  "tÃº"
+           },
+    "letra-n":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-n.mp3",
+                    "text":  "ene"
+                },
+    "m15-te-da":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/m15-te-da.mp3",
+                      "text":  "La maestra te da el taco."
+                  },
+    "responsable":  {
+                        "voice":  "Microsoft Sabina Desktop",
+                        "file":  "audio/vocab/responsable.mp3",
+                        "text":  "responsable"
+                    },
+    "michoacan":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/michoacan.mp3",
+                      "text":  "MichoacÃ¡n"
+                  },
+    "letra-r":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-r.mp3",
+                    "text":  "erre"
+                },
+    "la-enye":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/la-enye.mp3",
+                    "text":  "la eÃ±e"
+                },
+    "nos-vemos":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/nos-vemos.mp3",
+                      "text":  "Nos vemos"
+                  },
+    "azul":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/azul.mp3",
+                 "text":  "azul"
+             },
+    "generoso":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/generoso.mp3",
+                     "text":  "generoso"
+                 },
+    "la-minuscula":  {
+                         "voice":  "Microsoft Sabina Desktop",
+                         "file":  "audio/vocab/la-minuscula.mp3",
+                         "text":  "la minÃºscula"
+                     },
+    "la-abuela":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/la-abuela.mp3",
+                      "text":  "la abuela"
+                  },
+    "nervioso":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/nervioso.mp3",
+                     "text":  "nervioso"
+                 },
+    "la-estudiante":  {
+                          "voice":  "Microsoft Sabina Desktop",
+                          "file":  "audio/vocab/la-estudiante.mp3",
+                          "text":  "la estudiante"
+                      },
+    "la-pizza":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/la-pizza.mp3",
+                     "text":  "la pizza"
+                 },
+    "el-gusto-es-mio":  {
+                            "voice":  "Microsoft Sabina Desktop",
+                            "file":  "audio/vocab/el-gusto-es-mio.mp3",
+                            "text":  "El gusto es mÃ­o."
+                        },
+    "el-mapa":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/el-mapa.mp3",
+                    "text":  "el mapa"
+                },
+    "estan":  {
+                  "voice":  "Microsoft Sabina Desktop",
+                  "file":  "audio/vocab/estan.mp3",
+                  "text":  "estÃ¡n"
+              },
+    "hola":  {
+                 "voice":  "Microsoft Sabina Desktop",
+                 "file":  "audio/vocab/hola.mp3",
+                 "text":  "Hola"
+             },
+    "monterrey":  {
+                      "voice":  "Microsoft Sabina Desktop",
+                      "file":  "audio/vocab/monterrey.mp3",
+                      "text":  "Monterrey"
+                  },
+    "cansada":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/cansada.mp3",
+                    "text":  "cansada"
+                },
+    "el-padre":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/el-padre.mp3",
+                     "text":  "el padre"
+                 },
+    "ciudad-de-mexico":  {
+                             "voice":  "Microsoft Sabina Desktop",
+                             "file":  "audio/vocab/ciudad-de-mexico.mp3",
+                             "text":  "la Ciudad de MÃ©xico"
+                         },
+    "rosado":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/rosado.mp3",
+                   "text":  "rosado"
+               },
+    "el-estudiante":  {
+                          "voice":  "Microsoft Sabina Desktop",
+                          "file":  "audio/vocab/el-estudiante.mp3",
+                          "text":  "el estudiante"
+                      },
+    "estamos":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/estamos.mp3",
+                    "text":  "estamos"
+                },
+    "la-casa":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/la-casa.mp3",
+                    "text":  "la casa"
+                },
+    "hasta-manana":  {
+                         "voice":  "Microsoft Sabina Desktop",
+                         "file":  "audio/vocab/hasta-manana.mp3",
+                         "text":  "Hasta maÃ±ana"
+                     },
+    "letra-y":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-y.mp3",
+                    "text":  "ye"
+                },
+    "como-esta-usted":  {
+                            "voice":  "Microsoft Sabina Desktop",
+                            "file":  "audio/vocab/como-esta-usted.mp3",
+                            "text":  "Â¿CÃ³mo estÃ¡ usted?"
+                        },
+    "repita":  {
+                   "voice":  "Microsoft Sabina Desktop",
+                   "file":  "audio/vocab/repita.mp3",
+                   "text":  "Repita"
+               },
+    "inteligente":  {
+                        "voice":  "Microsoft Sabina Desktop",
+                        "file":  "audio/vocab/inteligente.mp3",
+                        "text":  "inteligente"
+                    },
+    "el-vaso":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/el-vaso.mp3",
+                    "text":  "el vaso"
+                },
+    "letra-j":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-j.mp3",
+                    "text":  "jota"
+                },
+    "ustedes":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/ustedes.mp3",
+                    "text":  "ustedes"
+                },
+    "la-capital":  {
+                       "voice":  "Microsoft Sabina Desktop",
+                       "file":  "audio/vocab/la-capital.mp3",
+                       "text":  "la capital"
+                   },
+    "la-letra":  {
+                     "voice":  "Microsoft Sabina Desktop",
+                     "file":  "audio/vocab/la-letra.mp3",
+                     "text":  "la letra"
+                 },
+    "lea":  {
+                "voice":  "Microsoft Sabina Desktop",
+                "file":  "audio/vocab/lea.mp3",
+                "text":  "Lea"
+            },
+    "de-donde-es-usted":  {
+                              "voice":  "Microsoft Sabina Desktop",
+                              "file":  "audio/vocab/de-donde-es-usted.mp3",
+                              "text":  "Â¿De dÃ³nde es usted?"
+                          },
+    "letra-t":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/letra-t.mp3",
+                    "text":  "te"
+                },
+    "escuche":  {
+                    "voice":  "Microsoft Sabina Desktop",
+                    "file":  "audio/vocab/escuche.mp3",
+                    "text":  "Escuche"
+                }
+}

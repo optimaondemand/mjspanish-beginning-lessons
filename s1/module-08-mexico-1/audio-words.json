@@ -1,0 +1,17 @@
+[
+  { "id": "rojo", "text": "rojo" },
+  { "id": "anaranjado", "text": "anaranjado" },
+  { "id": "amarillo", "text": "amarillo" },
+  { "id": "verde", "text": "verde" },
+  { "id": "azul", "text": "azul" },
+  { "id": "morado", "text": "morado" },
+  { "id": "rosado", "text": "rosado" },
+  { "id": "cafe", "text": "café" },
+  { "id": "gris", "text": "gris" },
+  { "id": "negro", "text": "negro" },
+  { "id": "blanco", "text": "blanco" },
+  { "id": "esta-en", "text": "está en" },
+  { "id": "al-norte-de", "text": "al norte de" },
+  { "id": "cerca-de", "text": "cerca de" },
+  { "id": "lejos-de", "text": "lejos de" }
+]

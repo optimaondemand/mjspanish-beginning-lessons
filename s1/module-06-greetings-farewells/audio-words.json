@@ -1,0 +1,18 @@
+[
+  { "id": "hola",             "text": "Hola" },
+  { "id": "buenos-dias",      "text": "Buenos días" },
+  { "id": "buenas-tardes",    "text": "Buenas tardes" },
+  { "id": "buenas-noches",    "text": "Buenas noches" },
+  { "id": "como-estas",       "text": "¿Cómo estás?" },
+  { "id": "como-esta-usted",  "text": "¿Cómo está usted?" },
+  { "id": "que-tal",          "text": "¿Qué tal?" },
+  { "id": "muy-bien",         "text": "Muy bien" },
+  { "id": "regular",          "text": "Regular" },
+  { "id": "mal",              "text": "Mal" },
+  { "id": "adios",            "text": "Adiós" },
+  { "id": "hasta-luego",      "text": "Hasta luego" },
+  { "id": "hasta-manana",     "text": "Hasta mañana" },
+  { "id": "nos-vemos",        "text": "Nos vemos" },
+  { "id": "chao",             "text": "Chao" },
+  { "id": "que-le-vaya-bien", "text": "Que le vaya bien" }
+]

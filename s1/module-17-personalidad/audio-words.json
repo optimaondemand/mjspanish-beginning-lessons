@@ -1,0 +1,13 @@
+[
+  { "id": "inteligente", "text": "inteligente" },
+  { "id": "responsable", "text": "responsable" },
+  { "id": "generoso", "text": "generoso" },
+  { "id": "creativo", "text": "creativo" },
+  { "id": "valiente", "text": "valiente" },
+  { "id": "paciente", "text": "paciente" },
+  { "id": "simpatico", "text": "simpático" },
+  { "id": "serio", "text": "serio" },
+  { "id": "timido", "text": "tímido" },
+  { "id": "comico", "text": "cómico" },
+  { "id": "amable", "text": "amable" }
+]

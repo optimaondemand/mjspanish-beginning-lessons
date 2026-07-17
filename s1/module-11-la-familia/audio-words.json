@@ -1,0 +1,15 @@
+[
+  { "id": "el-padre",    "text": "el padre" },
+  { "id": "la-madre",    "text": "la madre" },
+  { "id": "el-hermano",  "text": "el hermano" },
+  { "id": "la-hermana",  "text": "la hermana" },
+  { "id": "el-hijo",     "text": "el hijo" },
+  { "id": "la-hija",     "text": "la hija" },
+  { "id": "el-abuelo",   "text": "el abuelo" },
+  { "id": "la-abuela",   "text": "la abuela" },
+  { "id": "el-tio",      "text": "el tío" },
+  { "id": "la-tia",      "text": "la tía" },
+  { "id": "el-primo",    "text": "el primo" },
+  { "id": "la-prima",    "text": "la prima" },
+  { "id": "la-familia",  "text": "la familia" }
+]

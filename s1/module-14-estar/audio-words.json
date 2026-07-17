@@ -1,0 +1,15 @@
+[
+  { "id": "estoy", "text": "estoy" },
+  { "id": "estas", "text": "estás" },
+  { "id": "esta", "text": "está" },
+  { "id": "estamos", "text": "estamos" },
+  { "id": "estan", "text": "están" },
+  { "id": "bien", "text": "bien" },
+  { "id": "aqui", "text": "aquí" },
+  { "id": "contento", "text": "contento" },
+  { "id": "contenta", "text": "contenta" },
+  { "id": "cansado", "text": "cansado" },
+  { "id": "cansada", "text": "cansada" },
+  { "id": "nervioso", "text": "nervioso" },
+  { "id": "nerviosa", "text": "nerviosa" }
+]

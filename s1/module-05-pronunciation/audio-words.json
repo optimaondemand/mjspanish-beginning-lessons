@@ -1,0 +1,12 @@
+[
+  { "id": "la-vaca",    "text": "la vaca" },
+  { "id": "la-boca",    "text": "la boca" },
+  { "id": "el-vaso",    "text": "el vaso" },
+  { "id": "el-dedo",    "text": "el dedo" },
+  { "id": "la-taza",    "text": "la taza" },
+  { "id": "la-salsa",   "text": "la salsa" },
+  { "id": "el-zapato",  "text": "el zapato" },
+  { "id": "el-cielo",   "text": "el cielo" },
+  { "id": "la-casa",    "text": "la casa" },
+  { "id": "la-zona",    "text": "la zona" }
+]
