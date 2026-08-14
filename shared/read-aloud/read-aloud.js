@@ -446,6 +446,26 @@
         window.__oraAudit = q;
     }
 
+    // Which languages this course may switch into. DETECTION IS OPT-IN PER COURSE:
+    // declared in the include line as read-aloud.js?target=es (or data-ra-targets
+    // on the root). With nothing declared, no detection runs at all and the page
+    // is read in its own language.
+    //
+    // This matters on Latin pages. Latin shares short words with Spanish and
+    // French — "et", "de", "que", "tu" — so a fleet-wide detector with every
+    // language switched on would read Latin phrases in a French voice. A Latin
+    // course simply declares no targets. An explicit lang= attribute is still
+    // honoured either way, because markup always outranks detection.
+    function declaredTargets() {
+        var tag = document.querySelector('script[src*="read-aloud"]');
+        var src = tag ? (tag.getAttribute("src") || "") : "";
+        var m = /[?&]target=([a-z,\-]+)/i.exec(src);
+        var raw = m ? m[1] : (root.getAttribute("data-ra-targets") || "");
+        return raw.split(",")
+                  .map(function (x) { return x.trim().toLowerCase().split("-")[0]; })
+                  .filter(function (x) { return x && x !== pageLang && DIACRITIC[x]; });
+    }
+
     function boot() {
         root = document.querySelector("[data-readaloud-root]")
             || document.querySelector(".canvas-frame")
@@ -455,9 +475,7 @@
         pageLang = String(root.getAttribute("data-ra-lang")
                     || document.documentElement.getAttribute("lang") || "en")
                    .toLowerCase().split("-")[0];
-        // Languages worth detecting on this page: everything we have rules for,
-        // minus the page's own language.
-        targetLangs = Object.keys(DIACRITIC).filter(function (l) { return l !== pageLang; });
+        targetLangs = declaredTargets();
 
         var style = document.createElement("style");
         style.textContent = CSS;
