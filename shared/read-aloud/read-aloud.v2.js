@@ -224,6 +224,32 @@
     // Sabina (es-MX) is the voice used for this course's recorded audio clips.
     var PREFERRED = { es: /sabina/i };
 
+    // RUN CONTINUATION
+    // A target-language word often shares a text node with the English that
+    // follows it: "<span>el</span> patio but <span>la</span> plaza?". The node
+    // " patio but " has no element boundary to split on, so the English veto
+    // sends "patio" to the English voice along with "but".
+    // When the PREVIOUS segment was already confidently in a target language,
+    // a leading run of that language's words continues it: "el" + " patio"
+    // becomes one Spanish utterance, and " but " stays English.
+    // Only fires as a continuation, never to start a run, so context does the
+    // disambiguating that a word list alone cannot.
+    var MAX_CONTINUATION_WORDS = 3;
+
+    function splitLeadingRun(text, lang) {
+        if (!LEX_SET[lang]) { return null; }
+        var re = /\S+/g, m, taken = 0, end = 0;
+        while ((m = re.exec(text))) {
+            if (taken >= MAX_CONTINUATION_WORDS) { break; }
+            var w = m[0].toLowerCase().replace(/[^a-záéíóúñüàâçèêëîïôùûœ'-]/g, "");
+            if (!w || w.length < 2 || !LEX_SET[lang][w] || EN_COMMON[w]) { break; }
+            taken++;
+            end = m.index + m[0].length;
+        }
+        if (!taken) { return null; }
+        return { head: text.slice(0, end), tail: text.slice(end) };
+    }
+
     var root, playBtn, stopBtn, rateSel, statusEl, voicesBtn;
     var queue = [], idx = 0;
     var playing = false, paused = false, stopping = false;
@@ -286,9 +312,28 @@
             segs.push({ block: block, el: el, text: text, lang: d.lang, tier: d.tier });
         }
 
+        // Extend a target-language run into the English text node that follows it.
+        var expanded = [];
+        segs.forEach(function (s) {
+            var prev = expanded[expanded.length - 1];
+            if (prev && prev.block === s.block && s.lang === pageLang && prev.lang !== pageLang) {
+                var split = splitLeadingRun(s.text, prev.lang);
+                if (split) {
+                    expanded.push({ block: s.block, el: s.el, text: split.head,
+                                    lang: prev.lang, tier: "continuation" });
+                    if (/\S/.test(split.tail)) {
+                        expanded.push({ block: s.block, el: s.el, text: split.tail,
+                                        lang: pageLang, tier: "default" });
+                    }
+                    return;
+                }
+            }
+            expanded.push(s);
+        });
+
         // Merge neighbours that share a block and a language.
         var merged = [];
-        segs.forEach(function (s) {
+        expanded.forEach(function (s) {
             var last = merged[merged.length - 1];
             if (last && last.block === s.block && last.lang === s.lang) {
                 last.text += s.text;
